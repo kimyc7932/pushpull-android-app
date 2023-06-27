@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    android:drawable="@mipmap/lc_demo_loading_orange"-->
+
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@mipmap/d_04_cm_04_roading"
+    android:pivotY="50%"
+    android:pivotX="50%"
+    />

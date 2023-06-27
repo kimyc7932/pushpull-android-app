@@ -1,0 +1,16 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="common_cancel_big">취소</string>
+    <string name="common_cancel">취소</string>
+    <string name="lc_demo_device_cancel">취소</string>
+    <string name="popup_confirm">확인</string>
+    <string name="common_confirm">확인</string>
+
+    <string name="device_delete_tip">안내</string>
+    <string name="lc_shared_dt_info">::shared_dt::에 공유하였습니다.</string>
+    <string name="device_delete_confirm_msg">삭제하시겠습니까?</string>
+
+
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/px_30"
+    android:layout_marginRight="@dimen/px_30"
+    android:background="@drawable/lc_demo_soild_20r_white_shape"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/px_30"
+        android:paddingBottom="@dimen/px_20">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_5"
+            android:textColor="@color/lc_demo_color_2b2b2b"
+            android:textSize="@dimen/px_30" />
+
+        <ImageView
+            android:id="@+id/to_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_20"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_news" />
+
+        <ImageView
+            android:id="@+id/iv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@mipmap/lc_demo_common_nav_settings_white_disable" />
+
+        <TextView
+            android:id="@+id/tv_sharedInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textColor="@color/lc_demo_color_2c2c2c"
+            android:textSize="@dimen/px_30"></TextView>
+    </LinearLayout>
+
+    <com.mm.android.mobilecommon.widget.RadiusCardView
+        android:id="@+id/rc_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rcv_topLeftRadiu="0dp"
+        app:rcv_topRightRadiu="0dp"
+        app:rcv_bottomLeftRadiu="@dimen/px_20"
+        app:rcv_bottomRightRadiu="@dimen/px_20"
+        app:cardElevation="0dp">
+
+        <FrameLayout
+            android:id="@+id/fr_detail"
+            android:animateLayoutChanges="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rl_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/lc_demo_default_bg" />
+
+                <LinearLayout
+                    android:id="@+id/ll_privacy_reverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/graybg">
+
+                    <!-- 사생활 보호 -->
+                    <LinearLayout
+                        android:id="@+id/ll_close_camera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:visibility="invisible"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_close_tip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:text="@string/lc_close_camera_text"
+                            android:textColor="@color/BaseWhite"
+                            android:textSize="@dimen/px_30"></TextView>
+
+                        <ImageView
+                            android:id="@+id/iv_close_check"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:src="@drawable/switch_off"></ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_empty_space"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:orientation="horizontal" />
+
+                    <!-- 이미지 회전 -->
+                    <LinearLayout
+                        android:id="@+id/ll_reverse_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_weight="1"
+                        android:visibility="visible"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_reverse_tip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:text="@string/lc_reverse_image_text"
+                            android:textColor="@color/BaseWhite"
+                            android:textSize="@dimen/px_30"></TextView>
+
+                        <ImageView
+                            android:id="@+id/iv_reverse_check"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="10dp"
+                            android:src="@drawable/switch_off"></ImageView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/lc_demo_home_btn_bigmode_play" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_offline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/lc_demo_soild_20r_c48000000_shape">
+
+                    <TextView
+                        android:id="@+id/tv_offline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="@string/lc_demo_main_offline"
+                        android:textColor="@color/lc_demo_color_ffffff"
+                        android:textSize="@dimen/px_32" />
+
+                    <TextView
+                        android:id="@+id/tv_offline_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_offline"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:textColor="@color/lc_demo_color_ffffff"
+                        android:textSize="@dimen/px_24" />
+                </RelativeLayout>
+                <ImageView
+                    android:id="@+id/iv_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    android:src="@mipmap/ic_ksw_empty_new" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_channel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_600"
+                android:layout_gravity="center"
+                android:visibility="gone"></androidx.recyclerview.widget.RecyclerView>
+        </FrameLayout>
+    </com.mm.android.mobilecommon.widget.RadiusCardView>
+
+    <LinearLayout
+        android:id="@+id/ll_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="gone">
+    </LinearLayout>
+
+
+</LinearLayout>

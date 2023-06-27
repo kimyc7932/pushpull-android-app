@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- timezone -->
+    <string name="lc_timezone_loading">Tuy vấn múi giờ...</string>
+    <string name="lc_timezone_text">Múi giờ</string>
+    <string name="lc_timezone_input_city_hint">Hãy nhập tên thành phố</string>
+    <string name="lc_timezone_setup_finish">Đã cài đặt xong.</string>
+
+    <string name="lc_device_share">Chia sẻ Camera</string>
+    <string name="lc_device_share_list">Chia sẻ thiết bị</string>
+    <string name="lc_device_share_user_list">Chia sẻ người dùng</string>
+    <string name="lc_device_share_confirm">Chia sẻ camera?</string>
+    <string name="lc_device_share_fail_me">Không thể chia sẻ máy ảnh trên tài khoản của riêng bạn.</string>
+
+    <string name="lc_sdcard_storage">Đang tìm kiếm dung lượng lưu trữ.</string>
+    <string name="lc_sdcard_text">Phần lưu trữ</string>
+    <string name="lc_sdcard_format_text">Định dạng</string>
+    <string name="lc_sdcard_useable">Có thể sử dụng.</string>
+    <string name="lc_sdcard_formating_text">Đang định dạng...</string>
+    <string name="lc_sdcard_format_finish_text">Đã định dạng xong.</string>
+    <string name="lc_sdcard_not_exists">Không có thiết bị lưu trữ.</string>
+    <string name="lc_sdcard_abnormal">Thẻ SD đã bị hỏng.</string>
+    <string name="lc_sdcard_format_dialog">Có định dạng không? Nếu bắt đầu định dạng thì không thể hủy được và tất cả dữ liệu sẽ bị xóa.</string>
+
+    <string name="lc_smart_motion_text">Chuyển động thông minh</string>
+
+    <string name="lc_absound_text">Phát hiện âm thanh</string>
+
+    <string name="input_email_hint">Nhập email</string>
+    <string name="input_email_hint2">Nhập email hình thái @</string>
+    <string name="btn_auth">Xác thực</string>
+    <string name="btn_auth_confirm">Xác nhận</string>
+
+    <string name="phone_not_match_tip">Email không đúng.</string>
+
+    <string name="lc_not_exists_account">Tài khoản chưa đăng kí</string>
+    <string name="lc_not_exists_account_text">Tài khoản chưa được đăng kí.khi thành viên được chia sẻ đăng ký email[::invite_email::] sẽ tự động nhận quyền hạn .</string>
+    <string name="lc_not_exists_account_text2"> Đây là một tài khoản chưa đăng ký.</string>
+
+    <string name="lc_delete_share_release">Xóa</string>
+    <string name="lc_delete_share">Bỏ chia sẻ camera</string>
+    <string name="lc_delete_share_confirm">Hủy tính năng chia sẻ Camera?</string>
+
+    <string name="lc_common_process_ok">Đã xử lí xong</string>
+
+    <string name="lc_demo_device_version_tip">Phiên bản phần mềm</string>
+    <string name="lc_demo_device_move_check">Quan sát chuyển động</string>
+    <string name="network_error">Không kết nối được mạng.</string>
+
+    <string name="device_reg_fail">Không thể đăng ký thiết bị.</string>
+    <string name="device_delete_fail">Không thể xóa bỏthietes bị.</string>
+</resources>

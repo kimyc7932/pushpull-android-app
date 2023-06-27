@@ -1,0 +1,74 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        <item name="android:windowBackground">@drawable/bitmap_splash</item>-->
+        <item name="android:windowBackground">@drawable/intro</item>
+    </style>
+    <style name="lc_demo_loading" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/lc_demo_progress_style</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">@dimen/px_100</item>
+        <item name="android:maxWidth">@dimen/px_100</item>
+        <item name="android:minHeight">@dimen/px_100</item>
+        <item name="android:maxHeight">@dimen/px_100</item>
+    </style>
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+    <declare-styleable name="LcCloudRudderView">
+        <attr name="landscape_only" format="boolean" />
+    </declare-styleable>
+
+    <style name="LoadingProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="user_module_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/c50</item>
+        <item name="android:textColorHint">@color/c52</item>
+        <item name="android:textCursorDrawable">@drawable/common_edit_text_cursor_bg</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="BaseEdit" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textCursorDrawable">@drawable/base_edit_cursor</item>
+    </style>
+
+    <style name="BaseText" parent="TextAppearance.AppCompat">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/BaseBlack</item>
+    </style>
+
+</resources>

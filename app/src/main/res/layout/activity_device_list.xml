@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BaseContentBack"
+    tools:context=".ui.DeviceListActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100">
+
+                <LinearLayout
+                    android:id="@+id/ll_multiview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:src="@drawable/lc_multiview"></ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/lc_demo_main_title"
+                    android:textColor="@color/BaseTitleText"
+                    android:textSize="@dimen/px_36"
+                    android:textStyle="bold"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/ll_mypage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/px_20"
+                    android:paddingRight="@dimen/px_20">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/icon_top_mypage"></ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/ll_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/px_20"
+                    android:paddingRight="@dimen/px_20">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/lc_demo_nav_add"></ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/px_10"
+                    android:paddingRight="@dimen/px_10"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/guest_logout"></ImageView>
+                </LinearLayout>
+            </RelativeLayout>
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/rl_no_device"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_below="@id/rl_title"-->
+<!--                android:orientation="vertical"-->
+<!--                android:visibility="gone">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/iv_no_device"-->
+<!--                    android:layout_width="104dp"-->
+<!--                    android:layout_height="104dp"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="@dimen/px_200"-->
+<!--                    android:src="@drawable/icon_no_device">-->
+<!--                </ImageView>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/iv_no_device"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="@dimen/px_50"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="@string/lc_demo_main_no_device"-->
+<!--                    android:textColor="@color/lc_demo_color_8f8f8f"-->
+<!--                    android:textSize="@dimen/px_30"></TextView>-->
+<!--            </RelativeLayout>-->
+
+            <com.mm.android.mobilecommon.widget.LcPullToRefreshRecyclerView
+                android:id="@+id/device_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/rl_title"
+                android:background="@color/c_f6f6f6"
+                android:overScrollMode="never"
+                android:paddingBottom="@dimen/dp_10"
+                android:scrollbars="none"
+                ptr:ptrAnimationStyle="flip"
+                ptr:ptrDrawable="@mipmap/lc_demo_loading_orange"
+                ptr:ptrDrawableIng="@drawable/lc_demo_org_progress_style"
+                ptr:ptrDrawableStart="@drawable/indicator_arrow"
+                ptr:ptrHeaderTextColor="@color/c51" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

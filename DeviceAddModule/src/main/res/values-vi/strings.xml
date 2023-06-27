@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" ns1:ignore="ExtraTranslation,MissingTranslation">
+    <string name="client_type">phone</string>
+    <string name="host">www.lechange.cn:443</string>
+
+    <string name="device_type_choose"> Chọn loại thiết bị</string>
+    <string name="device_type_input_hint"> Vui lòng nhập loại thiết bị của bạn </string>
+    <string name="device_type_other">Loại khác</string>
+    <string name="device_type_sure">Xác nhận</string>
+    <string name="device_type_choose_tip"> Cách kiểm tra loại thiết bị</string>
+    <!--接口异常提示-->
+
+    <!--通用返回提示-->
+    <string name="mobile_common_bec_common_timeout"> Mạng không hoạt động bình thường. kiểm tra kết nối mạng!</string>
+    <string name="mobile_common_bec_add_device_valid_error">Lỗi sc code</string>
+    <string name="mobile_common_bec_device_locked">Xin lỗi. Đã thử quá nhiều mật khẩu thiết bị. Thiết bị đã bị khóa. Tắt nguồn thiết bị và khởi động lại.</string>
+    <string name="mobile_common_bec_common_network_exception"> Tín hiệu mạng yếu</string>
+    <!--设备添加-->
+
+    <string name="add_box_tip_confirm_btn" translatable="false">Xác nhận, bắt đầu thêm vào</string>
+    <string name="add_box_tip" translatable="false"> Đảm bảo rằng hộp hoạt động tốt trước khi them vào:</string>
+    <string name="add_box_tip1" translatable="false">① Khi nguồn điện được kết nối, đèn báo sáng trắng</string>
+    <string name="add_box_tip2" translatable="false">② Kết nối với mạng khả dụng</string>
+    <string name="add_device_box_is_offline" translatable="false"> Bạn không online. Hãy chắc chắn rằng bạn đang online</string>
+    <string name="assetfont_html" translatable="false">file:///android_asset/htmls/1.htm</string>
+    <string name="add_device_not_tip_again" translatable="false">Đừng hỏi lần sau</string>
+    <string name="add_device_input_sn_by_user_not_support_box" translatable="false">* Hộp nhạc và phụ kiện không hỗ trợ nhập số sê-ri cần thêm theo cách thủ công.</string>
+
+    <string name="add_device_timeout_title_tip8"> Nhấn và giữ lỗ đặt lại ở mặt sau của thiết bị bằng ống hút cho đến khi đèn ở mặt trước của thiết bị tắt, sau đó nhấp vào "Khởi động lại".</string>
+    <string name="add_device_timeout_light_tip9">Đèn xanh lá/ xanh da trời đang bật</string>
+    <string name="add_device_timeout_add_by_qrcode">Thêm QR Code</string>
+    <string name="add_device_timeout_router_failed"> Không thể kết nối với bộ định tuyến</string>
+    <string name="add_device_timeout_network_failed"> Không thể kết nối mạng</string>
+
+    <string name="add_device_qrcode_title_tip"> Đặt mã QR trực tiếp trên ống kính máy ảnh.</string>
+    <string name="add_device_qrcode_msg_tip">Giữ khoảng cách 10~30cm và di chuyển qua lại từ từ. \ NNhấp vào tiếp theo sau khi có lời nhắc bằng giọng nói "Quét mã QR thành công" </string>
+    <string name="add_device_enable_motion_detect"> Bật các chức năng kiểm tra chuyển động, chụp và quay video của thiết bị </string>
+    <string name="add_device_input_sec_code_tip"> Nhập mã bảo mật gồm 6 chữ số của thiết bị của bạn.</string>
+    <string name="add_device_input_sec_code_by_user"> Nhập mã bảo mật của bạn</string>
+
+    <string name="add_device_commom_dev_more_than_ten_tip">Xin lỗi. Đã thử 10 lần. Hãy nghỉ 30 phút và thử lại.</string>
+    <string name="add_device_commom_dev_more_than_ten_twice_tip">Xin lỗi. Bạn đã thử 20 lần. Hãy nghỉ ngơi và thử lại vào ngày mai.</string>
+    <string name="add_device_commom_dev_ip_error_tip"> Thiết bị của bạn đã được đăng ký với nền tảng trong hơn 3 ngày và thiết bị và ứng dụng khách phải ở trong cùng một mạng LAN để liên kết. Tắt nguồn thiết bị của bạn và khởi động lại.</string>
+
+    <string name="add_device_commom_dev_sn_code_conflict_tip"> Xung đột số sê-ri thiết bị</string>
+
+    <!--国内海外通用，需要翻译-->
+    <string name="add_device_input_sn"> Vui lòng nhập số sê-ri của bạn</string>
+    <string name="add_device_title"> Thêm thiết bị</string>
+    <string name="add_device_no_gateway"> Không có cổng nào được kết nối</string>
+    <string name="add_device_choose_related_gateway"> Chọn một cổng để kết nối với:</string>
+    <string name="add_device_plug_cable_to_device"> Vui lòng kết nối thiết bị với cáp mạng</string>
+    <string name="add_device_same_network_tip"> Kết nối điện thoại và thiết bị của bạn vào cùng một mạng</string>
+    <string name="add_device_operation_by_instructions"> Làm theo hướng dẫn sử dụng thiết bị </string>
+    <string name="add_device_plug_power"> Vui lòng bật nguồn thiết bị</string>
+    <string name="add_device_con_wifi"> Kết nối điện thoại với Wi-Fi </string>
+    <string name="add_device_wifi_ssid"> Mạng wifi:</string>
+    <string name="add_device_input_wifi_password"> Vui lòng nhập mật khẩu WiFi</string>
+    <string name="add_device_connect_and_goto_next"> Sau khi kết nối, bạn sẽ tự động chuyển sang bước tiếp theo </string>
+    <string name="add_device_complete_related_operations"> Các hoạt động liên quan đã hoàn thành</string>
+    <string name="add_device_confirm_same_network"> Đã xác nhận được kết nối với cùng một mạng</string>
+    <string name="add_device_add_by_wired">Thêm thiết bị dây </string>
+    <string name="add_device_scan_lechange_device_qr_code">Không thể nhận dạng mã QR của thiết bị</string>
+    <string name="add_device_device_bind_by_yourself">Thiết bị đã có trong tài khoản của bạn </string>
+    <string name="add_device_switch_to_wired_add">Chuyển sang thiết bị có dây</string>
+    <string name="add_device_switch_to_wireless_add"> Chuyển sang thiết bị không dây </string>
+    <string name="add_device_password_error_and_will_lock"> Nếu sai mật khẩu 5 lần liên tiếp, thiết bị sẽ bị khóa.</string>
+    <string name="add_device_scan_device_qr_code"> Vui lòng quét mã QR của máy ảnh.</string>
+    <string name="add_device_add_bySn"> Số seri </string>
+    <string name="add_device_input_sn_under_device"> Vui lòng nhập số sê-ri và mã bảo mật trên nhãn thiết bị</string>
+    <string name="add_device_confirm_to_connect_correct_wifi"> Đảm bảo rằng điện thoại của bạn được kết nối với WiFi mà thiết bị của bạn được kết nối</string>
+    <string name="add_device_remember_password"> Lưu mật khẩu</string>
+    <string name="add_device_device_not_support_5g">Chọn Wi-Fi bạn đang sử dụng.</string>
+    <string name="add_device_adjust_phone_volume"> Tăng âm lượng trên điện thoại của bạn \ n và hướng loa của điện thoại vào micrô của thiết bị </string>
+    <string name="add_device_keep_phone_close_to_device"> Di chuyển điện thoại càng gần thiết bị càng tốt</string>
+    <string name="add_device_connect_router_please_wait"> Đang kết nối với bộ định tuyến, vui lòng đợi...</string>
+    <string name="add_device_adjust_phone_volume_to_hear_bugu"> Tăng âm lượng của điện thoại và hướng loa điện thoại vào micrô của thiết bị.\n Đảm bảo bạn nghe thấy "Cuckoo, cuckoo".</string>
+    <string name="add_device_set_device_password_for_safety"> Đặt mật khẩu thiết bị để tăng cường bảo mật</string>
+    <string name="add_device_kindly_reminder">Tips</string>
+    <string name="add_device_define_device_password_tip"> Mật mã thiết bị là một chiến lược tăng cường bảo mật có thể bảo vệ thiết bị của bạn tốt hơn. bảo mật thông tin. Bạn phải sử dụng đúng mật khẩu thiết bị để lấy thông tin âm thanh và video từ thiết bị của mình. \ n Khi kết nối máy ảnh với các thiết bị khác, bạn phải nhập mật khẩu theo cách thủ công. Giữ an toàn: Nếu bạn quên mật khẩu của mình, bạn có thể khôi phục cấu hình mặc định của thiết bị và sau đó thêm nó vào tài khoản của bạn để đặt mật khẩu thiết bị mới.</string>
+    <string name="add_device_connect_cloud_please_wait">Đang kết nối. \n Vui lòng chờ...</string>
+    <string name="add_device_binding_to_account"> Chúng tôi đang thêm các thiết bị.\nVui lòng chờ...</string>
+    <string name="add_device_input_device_password"> Vui lòng nhập mật khẩu thiết bị của bạn </string>
+    <string name="add_device_password_initial_tip">1. Nếu bạn đặt mật mã thiết bị trong ứng dụng và quên mật mã, bạn có thể khôi phục cấu hình mặc định của thiết bị và thêm lại thiết bị để đặt mật mã thiết bị mới. \ n2.Nếu bạn chưa bao giờ đặt mật mã thiết bị và nhãn thiết bị nói Nhập mã bảo mật gồm 8 chữ số có trên nhãn thiết bị nếu có từ "Mã bảo mật".</string>
+    <string name="add_device_add_successfully"> Thêm thành công!</string>
+    <string name="add_device_name_for_device"> Vui lòng nhập tên thiết bị!</string>
+    <string name="add_device_time">Thời gian</string>
+    <string name="add_device_bind_success_quit_tip"> Việc không đặt múi giờ có thể gây ra sự cố với các dịch vụ như lưu trữ trên cloud.</string>
+    <string name="add_device_detecting_network_safety"> Kiểm tra cấu hình bảo mật mạng. Xin vui lòng chờ trong giây lát...</string>
+    <string name="add_device_confrim_to_quit">Kết thúc</string>
+    <string name="add_device_not_complete_tip"> Quá trình thiết lập chưa hoàn tất. Khi hoàn tất, bạn có thể bắt đầu lại quá trình thiết lập.</string>
+    <string name="add_device_device_bind_by_other">Xin lỗi, Thiết bị này đã được thêm vào% s</string>
+    <string name="add_device_not_support_to_bind">Xin lỗi. Chúng tôi không thể thêm thiết bị của sản phẩm này vào lúc này </string>
+    <string name="add_device_tip_not_support_5g_1">1. Máy ảnh tạm thời không hỗ trợ Wi-Fi băng tần 5G Hz. Nếu bạn đang sử dụng bộ định tuyến băng tần kép, hãy kết nối điện thoại và máy ảnh của bạn với tín hiệu Wi-Fi băng tần 2,4G Hz.</string>
+    <string name="add_device_tip_not_support_5g_2">2. Nếu bạn không chắc dải tần số Wi-Fi nào hiện đang được kết nối với điện thoại và máy ảnh của mình, bạn có thể kiểm tra hướng dẫn sử dụng cho bộ định tuyến của mình và truy cập trang cài đặt bộ định tuyến để tìm hiểu.</string>
+    <string name="add_device_i_need_help">Hỗ trợ</string>
+    <string name="add_device_connect_timeout">Hết thời gian kết nối</string>
+    <string name="add_device_operation_by_voice_or_light"> Chọn một hành động theo đèn thiết bị hoặc lời nhắc bằng giọng nói.</string>
+    <string name="add_device_operation_by_voice_tip"> Làm theo các chỉ báo thiết bị hoặc lời nhắc bằng giọng nói.</string>
+    <string name="add_device_disconnect_power_and_restart"> Tắt nguồn thiết bị, cắm lại và nhấp vào "Khởi động lại" </string>
+    <string name="add_device_timeout_title_tip7"> Vui lòng thử lại hoặc chọn phương pháp khác để thêm thiết bị</string>
+    <string name="add_device_yellow_light_twinkle">Khởi động lại</string>
+    <string name="add_device_red_light_rotate">Chuyển đèn đỏ </string>
+    <string name="add_device_green_light_twinkle">Đèn màu xanh lá cây nhấp nháy </string>
+    <string name="add_device_blue_light_always"> Đèn xanh luôn sáng</string>
+    <string name="add_device_red_light_twinkle"> Đèn màu đỏ cây nhấp nháy </string>
+    <string name="add_device_red_light_always"> Đèn đỏ đang bật </string>
+    <string name="add_device_green_light_always"> Đèn xanh bật</string>
+    <string name="add_device_continue_to_wait">Tiếp tục chờ</string>
+    <string name="add_device_quit_add_process">Thêm hoàn tất</string>
+    <string name="add_device_restart">Khởi động lại</string>
+    <string name="add_device_choose_ap">Thêm Soft AP</string>
+    <string name="add_device_choose_wlan">Thêm thiết bị không dây</string>
+    <string name="add_device_choose_lan"> Thêm thiết bị có dây </string>
+    <string name="add_device_config_failed">Cài đặt thất bại</string>
+    <string name="add_device_detect_safe_network_config_failed"> Không thể phát hiện cấu hình bảo mật mạng. \n Đảm bảo rằng điện thoại và thiết bị của bạn được kết nối với cùng một mạng </string>
+    <string name="add_device_choose_wifi"> Chọn mạng WiFi của bạn:</string>
+    <string name="add_device_connect_error_and_quit_retry"> Kết nối không bình thường. Thoát và thử lại.</string>
+    <string name="add_device_softap_dev_connect_tip"> Thiết bị chuông đang kết nối với Wi-Fi. Khi kết nối thành công, đèn màu lục lam trên thiết bị sẽ ngừng nhấp nháy và đèn màu lục lam vẫn sáng.</string>
+    <string name="add_device_softap_dev_connect_check_tip"> Đèn màu lục lam luôn sáng </string>
+    <string name="add_device_current_accessory_sn"> Số sê-ri phụ kiện hiện tại (S/N)：</string>
+    <string name="add_device_pairing_please_wait"> Đang ghép nối. Xin vui lòng chờ trong giây lát...</string>
+    <string name="add_device_keep_ap_close_to_gateway"> Đặt phụ kiện càng gần thiết bị cổng càng tốt.</string>
+    <string name="add_device_wifi_config_success"> Cấu hình thành công</string>
+    <string name="add_device_ap_install_battery"> Lắp pin vào phụ kiện hoặc kết nối bộ đổi nguồn. Nếu có phích cắm, vui lòng rút phích cắm.</string>
+    <string name="add_device_timeout_init_failed"> Không phát hiện được cấu hình bảo mật mạng </string>
+    <string name="add_device_wait_to_connect_wifi"> Chờ hệ thống tự động kết nối </string>
+    <string name="add_device_wait_to_connect_wifi_failed_old"> Sau khi sao chép mật khẩu Điểm phát sóng bằng cách nhấp vào nó, hãy nhấp vào Chọn Mạng WiFi ở dưới cùng, tên "%s" quay lại trang.</string>
+    <string name="add_device_wait_to_connect_wifi_failed"> Sau khi sao chép mật khẩu Điểm phát sóng, nhấp vào Chọn Mạng WiFi ở dưới cùng để kết nối với Điểm phát sóng có tên "% s".</string>
+    <string name="add_device_verify_device_pwd_failed"> Xác minh không hoàn thành. Vui lòng nhập lại mật khẩu thiết bị của bạn.</string>
+
+    <string name="add_device_listen_wifi_pwd_error_tip"> Thiết bị của bạn có hiển thị thông báo rằng mật khẩu WiFi của bạn không chính xác?</string>
+    <string name="add_device_next_step_count_down">Bước tiếp theo (%ds)</string>
+
+    <string name="add_device_goto_connect_wifi"> Chọn mạng WiFi của bạn</string>
+    <string name="add_device_congratulations">Cài đặt</string>
+    <string name="add_device_get_free_cloud_package"> Nhận miễn phí bộ nhớ đám mây% 1 $ s gói hàng tháng% 2 $ s </string>
+    <string name="add_device_get_permanent_free_cloud_package">Nhận% 1 $ s Sky Cloud Storage Bậc miễn phí vĩnh viễn</string>
+    <string name="add_device_free_cloud_usage"> Dùng thử miễn phí bằng cách nhấp vào nút hủy kích hoạt và tìm "gói dùng thử" ở góc trên bên phải.</string>
+    <string name="add_device_days_remaining">%s Lưu trữ đám mây</string>
+    <string name="add_device_service_time">%S Những ngày còn lại</string>
+    <string name="add_device_service_time_permanent_free"> Số ngày còn lại vĩnh viễn</string>
+    <string name="add_device_free_cloud_activated"> Kích hoạt</string>
+    <string name="add_device_success_cloud_services_type"> Loại gói</string>
+    <string name="add_device_goto_open_location_service"> Bật "Dịch vụ vị trí" trên điện thoại của bạn để nhận thông tin WiFi hiện tại </string>
+    <string name="device_add_scan_error"> Thông tin mã QR không chính xác </string>
+
+    <string name="add_device_input_sccode"> Vui lòng nhập mã bảo mật 8 chữ số cho thiết bị của bạn</string>
+    <string name="add_device_without_input_sccode_tip">* Nếu không có số xác minh bảo mật trên nhãn, bạn không cần nhập số đó.</string>
+    <string name="add_device_input_corrent_sc_tip"> Vui lòng nhập mã xác minh bảo mật chính xác </string>
+    <string name="add_device_add_volume_tip"> Vui lòng tăng âm lượng điện thoại </string>
+
+    <string name="add_device_adjust_phone_volume_to_hear_volume"> Tăng âm lượng của điện thoại và hướng loa của điện thoại vào micrô của thiết bị. \ n Kiểm tra xem bạn có nghe thấy âm thanh không..</string>
+    <string name="add_device_will_hear_volume"> Nghe được sóng âm </string>
+    <string name="add_device_will_hear_bugu"> Bạn sẽ nghe thấy "bugu, bugu"</string>
+    <string name="add_device_falshlight_off"> Tắt đèn </string>
+    <string name="add_device_falshlight_on">Bật đèn</string>
+
+    <string name="add_device_input_imei_under_device"> Vui lòng nhập số IMEI trên nhãn của thân thiết bị</string>
+    <string name="add_device_input_imei"> Vui lòng nhập số IMEI của thiết bị</string>
+    <string name="add_device_nb_tip1"> Vui lòng nhấn nút tự kiểm tra / tắt tiếng của thiết bị trước</string>
+    <string name="add_device_nb_tip2"> Nếu bạn xóa thiết bị và thêm lại, bạn cần tắt nguồn và kết nối lại</string>
+    <string name="add_device_input_imei_by_user_tip">* Số IMEI có 15-17 chữ số</string>
+    <string name="add_device_device_sn_or_imei_not_match"> Thông tin đầu vào không chính xác. Vui lòng nhập lại sau khi xác nhận</string>
+
+    <string name="add_device_add_ap_upper_limit"> Phụ kiện được thêm vào đã đạt đến giới hạn</string>
+    <string name="add_device_wait_to_connect_wifi_failed_sc_old"> Nhập cài đặt WiFi trên điện thoại của bạn và kết nối với Điểm phát sóng có tên "% s", sau đó quay lại trang này</string>
+    <string name="add_device_wifi_information"> Hãy làm theo hướng dẫn dưới đây.</string>
+    <string name="add_device_wait_to_connect_wifi_failed_sc"> Nhấp và sao chép mật khẩu Điểm phát sóng\n Nhấp vào Chọn mạng WiFi ở dưới cùng\n"%s"인\nHotspot vui lòng kết nối.</string>
+    <string name="add_device_wait_to_connect_wifi_failed_sc2"> Khi được kết nối với điểm phát sóng, cửa sổ lựa chọn WiFi sẽ xuất hiện. \ n Nếu bạn chọn WiFi đang sử dụng, quá trình đăng ký thiết bị sẽ hoàn tất..</string>
+    <string name="add_device_wait_to_connect_wifi_failed_sc3">* Nếu cửa sổ chọn WiFi không xuất hiện, hãy nhấp vào nút [Quay lại] rồi nhấp vào nút [Tiếp theo] để hiển thị cửa sổ chọn WiFi.</string>
+    <string name="add_device_about_wifi_pwd">Hotspot Mật khẩu</string>
+    <string name="add_device_tip_about_wifi_pwd"> Mật khẩu Điểm phát sóng của thiết bị là mã bảo mật thiết bị của bạn, hãy tìm từ "MÃ AN TOÀN" trên nhãn thiết bị và nhập mã gồm 8 chữ số có trên nhãn thiết bị.</string>
+
+    <string name="device_disturb_state_failed"> Cài đặt không thành công </string>
+    <string name="device_manager_password_error"> Sai mật khẩu </string>
+
+    <string name="device_manager_summer_time"> Tiết kiệm thời gian ban ngày</string>
+    <string name="device_manager_input_device_name"> Vui lòng nhập tên thiết bị</string>
+    <string name="device_manager_input_captcha"> Vui lòng nhập mã xác nhận </string>
+    <string name="device_manager_regain"> Yêu cầu lại</string>
+    <string name="device_has_binding"> Thiết bị đã được thêm vào tài khoản hiện tại.</string>
+    <string name="device_manager_summer_time_rule"> Giờ tiết kiệm ánh sáng ban ngày phải được đặt ít nhất 1 giờ</string>
+
+    <!--mobileCommon-->
+    <string name="mobile_common_later"> Nói chuyện sau</string>
+
+    <string name="mobile_common_device">Thiết bị</string>
+    <string name="mobile_common_common_never_remind"> Đừng nhắc tôi lần sau </string>
+
+    <string name="common_cancel">Hủy</string>
+
+    <string name="common_today">Hôm nay</string>
+    <string name="common_yesterday">Hôm qua </string>
+
+    <string name="common_no_authority">Không được phép</string>
+
+    <!--权限增加-->
+    <string name="mobile_common_permission_apply"> Yêu cầu truy cập</string>
+    <string name="mobile_common_common_ignore">Bỏ qua</string>
+    <string name="mobile_common_permission_explain_get_accounts"> Vui lòng bật quyền truy cập danh bạ để sử dụng chức năng thêm danh bạ trong sổ địa chỉ một cách bình thường</string>
+    <string name="mobile_common_permission_explain_write_accounts"> Vui lòng bật quyền ghi số liên hệ để lưu "Le Change Phone Alarm" làm số liên lạc</string>
+    <string name="mobile_common_permission_explain_read_phone_state"> Vui lòng cho phép truy cập điện thoại để gọi đến đường dây nóng dịch vụ khách hàng</string>
+    <string name="mobile_common_permission_explain_camera"> Vui lòng bật quyền truy cập máy ảnh để chụp ảnh, quét mã QR và các chức năng khác một cách bình thường</string>
+    <string name="mobile_common_permission_explain_external_storage"> Vui lòng bật quyền lưu trữ để sử dụng bình thường các chức năng chụp, ghi âm, tải xuống, v.v. </string>
+    <string name="mobile_common_permission_explain_record_audio"> Vui lòng bật quyền truy cập micrô để sử dụng hệ thống liên lạc nội bộ, ghi âm giọng nói tùy chỉnh và các chức năng khác bình thường </string>
+    <string name="mobile_common_lack_permission_then_exit"> Các quyền cần thiết bị thiếu, vui lòng mở quyền </string>
+
+    <string name="device_manager_report_month_select_month"><xliff:g id="num">%d</xliff:g>월</string>
+    <string name="device_manager_report_month_select_year"><xliff:g id="num">%d</xliff:g>년</string>
+    <string name="mobile_common_retry">Thử lại</string>
+
+    <string name="mobile_common_permission_explain_access_location_usage"> Vui lòng bật quyền định vị để sử dụng bình thường các dịch vụ dựa trên vị trí địa lý và các tính năng kết nối WiFi.</string>
+
+    <!--3.62+-->
+
+    <string name="mobile_common_device_timezone"> Múi giờ thiết bị</string>
+
+
+    <string name="mobile_common_modify_device_pwd"> Thay đổi mật khẩu thiết bị </string>
+    <string name="mobile_common_device_pwd_rule">8-32 ký tự (kết hợp số / tiếng Anh / ký tự đặc biệt)</string>
+
+    <string name="mobile_common_password_too_simple"> Mật khẩu của bạn quá đơn giản</string>
+    <string name="valid_code_retrieve_valid_num">Reacquire(<xliff:g id="num">%d</xliff:g>)</string>
+    <string name="mobile_common_network_config">Cài đặt mạng</string>
+
+    <string name="mobile_common_modify_device_pwd_tip"> Chúng tôi khuyên bạn nên đổi mật khẩu thiết bị mặc định sau khi thêm nó để bảo vệ an ninh mạng cho thiết bị của bạn..</string>
+    <string name="mobile_common_tap_to_view"> Bấm để xem</string>
+    <string name="mobile_common_how_modify_device_pwd"> Cách thay đổi mật khẩu thiết bị của bạn.</string>
+
+    <string name="mobile_common_no_google_play_detection"> Nhảy bước không thành công, vui lòng cài đặt Google App Market trước </string>
+
+    <string name="more_settings"> Cài đặt thêm </string>
+
+    <string name="geofence_backgroud_location_permission_explain"> Để kích hoạt Định dạng địa lý, vui lòng đi tới Cài đặt> Imou trên điện thoại của bạn. Sau đó, thay đổi cài đặt vị trí thành "Luôn luôn".</string>
+
+    <string name="application_name">BabaCamera</string>
+    <string name="common_connect_failed"> Kết nối thất bại </string>
+
+    <string name="common_confirm">Xác nhận</string>
+    <string name="common_complete">Hoàn tất</string>
+    <string name="common_next">Tiếp</string>
+    <string name="common_local_photo">Album ảnh</string>
+
+    <string name="common_copy_success">Sao chép thành công</string>
+    <string name="go_to_setting">Đến mục cài đặt</string>
+
+    <string name="common_offline">Offline</string>
+    <string name="device_tip_content"> Vui lòng nhập loại thiết bị của bạn </string>
+
+    <string name="add_device_qrcode_error_tip"> Thông tin mã QR không chính xác. Vui lòng thêm thiết bị theo cách thủ công.</string>
+    <string name="add_device_wait_to_connect_wifi_sc"> Mã xác minh bảo mật</string>
+    <string name="add_device_wait_to_connect_wifi_sc_pwd">Hotspot mật khẩu là</string>
+    <string name="add_device_switch_to_soft_ap_add">soft ap chuyển đổi bổ sung</string>
+    <string name="add_device_time_filter_tip"> Nhấn vào đây để kiểm tra cách bật thiết bị \'s hotspot.</string>
+    <string name="add_device_connect_finish_to_next"> Đã kết nối với điểm phát sóng của thiết bị, nhấn vào đây để sang bước tiếp theo.</string>
+
+    <string name="mobile_common_no_huawei_play_detection"> Vui lòng cài đặt Huawei App Market trước.</string>
+
+    <string name="add_device_add_title"> Vui lòng chọn cách thêm vào</string>
+    <string name="add_device_add_by_sound_wave"> Bổ sung âm thanh</string>
+    <string name="add_device_add_by_soft_ap">Soft AP thêm</string>
+
+    <string name="device_manager_wifi_name">Tên: </string>
+    <string name="device_manager_wifi_psw">Mật khẩu: </string>
+    <string name="add_device_input_wifi_name"> Vui lòng nhập tên mạng </string>
+
+    <string name="add_device_connect_wifi_failed"> Không thể tự động kết nối với thiết bị</string>
+    <string name="add_device_tip_connect_fail"> Nếu kết nối tự động không thành công, hãy mở danh sách Wi-Fi mà không lưu mật khẩu và nhập lại mật khẩu.</string>
+    <string name="add_device_tip_wifi_name"> Nếu có các ký hiệu đặc biệt như biểu tượng cảm xúc trong tên wifi của bạn, chẳng hạn: \uD83C\uDF39❤\uD83D\uDE0A\uD83D\uDCA6，Nó có thể khiến thiết bị của bạn không thể kết nối bình thường, bạn nên xóa các ký hiệu đặc biệt trong tên WiFi。</string>
+    <string name="device_manager_connected_wifi"> Mạng WiFi hiện tại:</string>
+    <string name="device_manager_wifi_list_empty"> Không có thông tin WiFi </string>
+    <string name="mobile_common_get_info_failed"> Nhận thất bại </string>
+    <string name="device_manager_input_wifi_password"> Vui lòng nhập mật khẩu WiFi của bạn </string>
+    <string name="device_manager_connect">Kết nối</string>
+    <string name="device_manager_not_saved_tip"> Cài đặt chưa được lưu, có thoát ra không </string>
+    <string name="device_manager_exit">Thoát ra</string>
+    <string name="device_manager_wifi_connetting_tip"> Kết nối WIFI, vui lòng làm mới sau </string>
+    <string name="device_manager_wifi_disable"> WiFi của thiết bị đang tắt </string>
+    <string name="device_manager_wifi_title"> Cài đặt mạng</string>
+    <string name="add_device_choose_type_error"> Không có thiết bị của mẫu này, vui lòng xác nhận mô hình theo lời nhắc trên trang </string>
+    <string name="add_device_choose_type_tip1"> Mẫu thiết bị thường được đánh dấu trên nhãn thiết bị \n\n</string>
+    <string name="add_device_choose_type_tip2"> Thiết bị LeChange khuyên bạn nên nhập kiểu thiết bị để cấu hình mạng；</string>
+    <string name="add_device_choose_type_tip3"> Mô hình của thiết bị LeChange thường là “TP、TF、TC、TD” bắt đầu。\n cho ：TP2、TP7、TF1T \n\n</string>
+    <string name="add_device_choose_type_tip4"> Thiết bị Dahua khuyên bạn nên chọn các dòng máy khác để phân phối mạng</string>
+    <string name="add_device_choose_type_tip5"> Mẫu thiết bị Dahua thường là “IPC、DH”beginning。\n for：IPC-HFW1225M-1、DH-NVR1104HS \n\n</string>
+    <string name="add_device_choose_type_tip6"> Sơ đồ nhãn như sau：</string>
+    <string name="add_device_higher_phone_volume"> Âm lượng điện thoại cao hơn và khoảng cách gần hơn giữa điện thoại và thiết bị của bạn sẽ hữu ích hơn.</string>
+    <string name="add_device_turn_up_volume_notice"> Tăng âm lượng điện thoại và đặt nó gần thiết bị của bạn.</string>
+    <string name="add_device_phone_will_emit_signal"> Điện thoại sẽ phát ra tín hiệu âm thanh.</string>
+    <string name="user_pwd_login_login">Đăng nhập</string>
+    <string name="user_register">Đăng ký</string>
+    <string name="user_input_name">Nhập email</string>
+    <string name="user_login_title">Đăng nhập</string>
+    <string name="user_register_btn">Đăng ký</string>
+    <string name="phone_not_match_tip">Email không đúng.</string>
+    <string name="account_not_has"> Tài khoản không tồn tại, vui lòng đăng ký.</string>
+    <string name="password_not_match_tip"> Vui lòng nhập mật khẩu </string>
+
+    <string name="add_device_adjust_phone_volume_to_hear_jiji"> Tăng âm lượng điện thoại và hướng loa điện thoại về phía micrô của thiết bị. \ n Kiểm tra âm thanh "bíp".</string>
+    <string name="add_device_will_hear_jiji">" Để tạo ra âm thanh "chụt chụt" </string>
+
+    <string name="SoftAPModeGuidingStepOneIntroduction"> Nhấn nút [Tiếp theo] khi đèn báo của thiết bị nhấp nháy màu xanh lam và thiết bị sẽ vào chế độ cấu hình AP.</string>
+    <string name="add_device_scan_wifi_first"> Trước khi quét mã QR, điện thoại</string>
+    <string name="add_device_scan_wifi_first2"> Vui lòng quét sau khi kết nối với WIFI.</string>
+
+    <string name="soft_ap_auto_connect_failed_tip">Đi tới cài đặt Wi-Fi của điện thoại và kết nối với điểm phát sóng của thiết bị như sau, sau đó quay lại trang này.</string>
+
+</resources>

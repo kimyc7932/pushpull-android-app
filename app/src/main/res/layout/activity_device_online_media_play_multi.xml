@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BaseContentBack"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_100"
+                android:id="@+id/ll_title"
+                android:visibility="gone"
+                android:layout_weight="1">
+
+                <!-- 타이틀 영역 -->
+                <RelativeLayout
+                    android:id="@+id/rl_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_100"
+                    android:background="@color/lc_demo_color_ffffff">
+
+                    <!-- back -->
+                    <LinearLayout
+                        android:id="@+id/ll_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/px_20"
+                        android:paddingRight="@dimen/px_20">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/lc_demo_nav_back"></ImageView>
+                    </LinearLayout>
+
+                    <!-- 디바이스명 -->
+                    <TextView
+                        android:id="@+id/tv_device_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/lc_demo_color_2c2c2c"
+                        android:textSize="@dimen/px_36"
+                        android:textStyle="bold"></TextView>
+
+                    <!-- 상세버튼 -->
+                    <LinearLayout
+                        android:id="@+id/ll_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/px_20"
+                        android:paddingRight="@dimen/px_20">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/lc_demo_common_nav_settings_white_disable"></ImageView>
+                    </LinearLayout>
+                </RelativeLayout> <!-- rl_title -->
+
+            </LinearLayout> <!-- //ll_title -->
+
+            <!-- 화면영역 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/ll_root">
+
+                    <!-- 01 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content0"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content0"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name0"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr0"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading0"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading0"
+                                        style="@style/lc_demo_loading"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="gone"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg0"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading0"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content0 -->
+
+                        </LinearLayout> <!-- ll_live_window_content0 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name1"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr1"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading1"
+                                        style="@style/lc_demo_loading"
+                                        android:layout_width="wrap_content"
+                                        android:visibility="gone"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg1"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading1"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content1 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content1 -->
+                    </LinearLayout> <!-- ll_0 -->
+
+                    <!-- 23 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name2"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr2"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading2"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg2"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading2"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content2 -->
+
+                        </LinearLayout> <!-- ll_live_window_content2 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name3"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr3"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading3"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg3"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading3"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content1 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content3 -->
+                    </LinearLayout> <!-- ll_2 -->
+
+                    <!-- 45 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name4"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr4"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading4"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg4"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading4"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content2 -->
+
+                        </LinearLayout> <!-- ll_live_window_content4 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name5"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr5"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading5"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg5"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading5"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content5 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content5 -->
+                    </LinearLayout> <!-- ll_4 -->
+
+                    <!-- 67 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name6"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr6"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading6"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg6"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading6"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content6 -->
+
+                        </LinearLayout> <!-- ll_live_window_content6 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name7"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr7"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading7"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg7"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading7"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content7 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content7 -->
+                    </LinearLayout> <!-- ll_6 -->
+
+                    <!-- 89 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name8"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr8"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading8"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg8"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading8"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content8 -->
+
+                        </LinearLayout> <!-- ll_live_window_content8 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name9"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr9"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading9"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg9"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading9"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content9 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content9 -->
+                    </LinearLayout> <!-- ll_8 -->
+
+                    <!-- 1011 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name10"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr10"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading10"
+                                        style="@style/lc_demo_loading"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="gone"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg10"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading10"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content0 -->
+
+                        </LinearLayout> <!-- ll_live_window_content0 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name11"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr11"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading11"
+                                        style="@style/lc_demo_loading"
+                                        android:layout_width="wrap_content"
+                                        android:visibility="gone"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg11"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading11"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content1 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content1 -->
+                    </LinearLayout> <!-- ll_10 -->
+
+                    <!-- 1213 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name12"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr12"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading12"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg12"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading12"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content2 -->
+
+                        </LinearLayout> <!-- ll_live_window_content2 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content13"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name13"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr13"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading13"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading13"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg13"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading13"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content1 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content3 -->
+                    </LinearLayout> <!-- ll_12 -->
+
+                    <!-- 1415 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content14"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name14"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr14"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading14"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg14"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading14"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content2 -->
+
+                        </LinearLayout> <!-- ll_live_window_content4 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content15"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name15"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr15"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading15"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg15"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading15"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content5 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content5 -->
+                    </LinearLayout> <!-- ll_14 -->
+
+                    <!-- 1617 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content16"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name16"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr16"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading16"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading16"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg16"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading16"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content6 -->
+
+                        </LinearLayout> <!-- ll_live_window_content6 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content17"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content17"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name17"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr17"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading17"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading17"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg17"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading17"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content7 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content7 -->
+                    </LinearLayout> <!-- ll_16 -->
+
+                    <!-- 1819 영역 -->
+                    <LinearLayout
+                        android:id="@+id/ll_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content18"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            >
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content18"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name18"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr18"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading18"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading18"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg18"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading18"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+
+                            </FrameLayout> <!-- // fr_live_window_content8 -->
+
+                        </LinearLayout> <!-- ll_live_window_content8 -->
+                        <LinearLayout
+                            android:id="@+id/ll_live_window_content19"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="@dimen/add_device_common_margin_1"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:id="@+id/fr_live_window_content19"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/lc_demo_color_000000" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textSize="13.0dp"
+                                    android:id="@+id/tv_fr_name19"></TextView>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/iv_fr19"></ImageView>
+
+                                <!-- loading -->
+                                <RelativeLayout
+                                    android:id="@+id/rl_loading19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ProgressBar
+                                        android:id="@+id/pb_loading19"
+                                        style="@style/lc_demo_loading"
+                                        android:visibility="gone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerInParent="true" />
+                                    <TextView
+                                        android:id="@+id/tv_loading_msg19"
+                                        android:layout_marginTop="@dimen/px_10"
+                                        android:layout_below="@id/pb_loading19"
+                                        android:layout_centerInParent="true"
+                                        android:textSize="@dimen/px_26"
+                                        android:textColor="@color/lc_demo_color_ffffff"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </RelativeLayout> <!-- // loading -->
+                            </FrameLayout> <!-- fr_live_window_content9 -->
+
+                        </LinearLayout> <!-- // ll_live_window_content9 -->
+                    </LinearLayout> <!-- ll_18 -->
+
+                </LinearLayout>
+
+            </LinearLayout> <!-- 화면영역 -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

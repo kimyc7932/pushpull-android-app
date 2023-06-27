@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px_50"
+        android:layout_marginTop="@dimen/px_50"
+        android:text="@string/lc_demo_device_deployment_title"
+        android:textColor="@color/lc_demo_color_2c2c2c"
+        android:textSize="@dimen/px_46" />
+
+
+
+    <!-- 움직임 감지 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_sw_motion">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/lc_demo_device_move_check"
+                android:textColor="@color/lc_demo_color_2c2c2c"
+                android:textSize="@dimen/px_36"></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_move_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/switch_on"></ImageView>
+
+    </RelativeLayout>
+
+
+    <!-- 상시녹화 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_24_recoding">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/lc_demo_device_recoding_all"
+                android:textColor="@color/lc_demo_color_2c2c2c"
+                android:textSize="@dimen/px_36"></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_record_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/switch_on"></ImageView>
+
+    </RelativeLayout>
+
+    <!-- 스마트트랙 -->
+    <RelativeLayout
+        android:id="@+id/rl_smart_motion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30"
+        >
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_sw_smart_track">
+            </ImageView>
+            <TextView
+                android:id="@+id/tv_motion_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/lc_smart_motion_text"
+                android:textColor="@color/lc_demo_color_2c2c2c"
+                android:textSize="@dimen/px_34"></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_motion_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/switch_off"></ImageView>
+
+    </RelativeLayout>
+
+    <!-- 소리감지 -->
+    <RelativeLayout
+        android:id="@+id/rl_absound"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_sw_absound"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_absound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/lc_absound_text"
+                android:textColor="@color/lc_demo_color_2c2c2c"
+                android:textSize="@dimen/px_34"></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_absound_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/switch_off"></ImageView>
+
+    </RelativeLayout>
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/rl_deployment_setting_time"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/px_130"-->
+<!--        android:background="@color/lc_demo_color_ffffff"-->
+<!--        android:layout_marginTop="@dimen/px_50"-->
+<!--        android:paddingLeft="@dimen/px_50"-->
+<!--        android:paddingRight="@dimen/px_35">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:text="@string/lc_demo_device_deployment_setting_time"-->
+<!--            android:textColor="@color/lc_demo_color_2c2c2c"-->
+<!--            android:textSize="@dimen/px_32" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:src="@drawable/lc_demo_common_btn_next" />-->
+<!--    </RelativeLayout>-->
+</LinearLayout>

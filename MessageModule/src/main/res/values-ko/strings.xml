@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="device_manager_mon">월</string>
+    <string name="device_manager_tue">화</string>
+    <string name="device_manager_wed">수</string>
+    <string name="device_manager_thu">목</string>
+    <string name="device_manager_fri">금</string>
+    <string name="device_manager_sat">토</string>
+    <string name="device_manager_sun">일</string>
+
+    <string name="no_message">알림이 없습니다.</string>
+    <string name="message_fail_desc">잠시 후 다시 시도해 주세요.</string>
+    <string name="message_selectall">전체선택</string>
+    <string name="message_unselectall">선택해제</string>
+    <string name="common_delete">삭제</string>
+    <string name="common_other">other</string>
+    <string name="message_module_delete_message_tip">알림 삭제</string>
+    <string name="message_module_delete_message_confirm">선택한 알림을 삭제하시겠습니까?</string>
+    <string name="message_module_confirm_delete">삭제</string>
+
+    <string name="lc_motion_message_text">움직임이 감지 되었습니다.</string>
+    <string name="lc_sound_message_text">소리가 감지 되었습니다.</string>
+</resources>

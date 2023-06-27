@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/BaseContentBack"
+    android:layout_marginTop="@dimen/px_30"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/sv_search"
+                style="@style/BaseEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:background="@drawable/edittext_outline_rect"
+                android:gravity="center_vertical|start"
+                android:hint="@string/lc_common_search"
+                android:paddingLeft="21dp"
+                android:textSize="@dimen/px_36"
+                app:queryHint="@string/lc_common_search"
+                app:iconifiedByDefault="false"
+                app:searchIcon="@null"
+                android:textAlignment="viewStart"
+                android:textColor="@color/c40"
+                android:textColorHint="@color/c42"
+                android:textDirection="locale" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:background="@color/lc_demo_color_d9d9d9"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30"></View>
+
+    <ListView
+        android:id="@+id/lv_timezone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_search"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"/>
+
+</LinearLayout>

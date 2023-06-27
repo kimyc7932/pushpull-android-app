@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_list">
+        <item>0::32::international date line West::UTC-12:00</item>
+        <item>1::31::Midway Island, Samoa::UTC-11:00</item>
+        <item>2::30::Hawaii::UTC-10:00</item>
+        <item>3::29::Alaska::UTC-09:00</item>
+        <item>4::28::Pacific time (United States and Canada)::UTC-08:00</item>
+        <item>5::28::Baja California::UTC-08:00</item>
+        <item>6::27::Chihuahua, La Paz, Mazatlan::UTC-07:00</item>
+        <item>7::27::Mountain time (United States and Canada)::UTC-07:00</item>
+        <item>8::27::Arizona::UTC-07:00</item>
+        <item>9::26::Guadalajara, Mexico City, Monterrey::UTC-06:00</item>
+        <item>10::26::Saskatchewan::UTC-06:00</item>
+        <item>11::26::Central time (United States and Canada)::UTC-06:00</item>
+        <item>12::26::Central America::UTC-06:00</item>
+        <item>13::25::Bogota, Lima, Quito::UTC-05:00</item>
+        <item>14::25::Eastern time (United States and Canada)::UTC-05:00</item>
+        <item>15::25::Indiana (East)::UTC-05:00</item>
+        <item>16::24::Caracas::UTC-04:00</item>
+        <item>17::24::Atlantic time (Canada)::UTC-04:00</item>
+        <item>18::24::Cuiaba::UTC-04:00</item>
+        <item>19::24::Georgetown, La Paz, Manaus, San Juan::UTC-04:00</item>
+        <item>20::24::San Diego::UTC-04:00</item>
+        <item>21::24::Asunción::UTC-04:00</item>
+        <item>22::23::Newfoundland::UTC-03:30</item>
+        <item>23::22::Brasilia::UTC-03:00</item>
+        <item>24::22::Buenos Aires::UTC-03:00</item>
+        <item>25::22::Greenland::UTC-03:00</item>
+        <item>26::22::Cayenne, Fortaleza::UTC-03:00</item>
+        <item>27::22::Montevideo-Asian::UTC-03:00</item>
+        <item>28::22::El Salvador::UTC-03:00</item>
+        <item>29::21::Mid-Atlantic::UTC-02:00</item>
+        <item>30::21::mid-Atlantic::UTC-02:00</item>
+        <item>31::20::Cape Verde Islands::UTC-01:00</item>
+        <item>32::20::Azores::UTC-01:00</item>
+        <item>33::0::Dublin, Edinburgh, Lisbon, London::UTC+00:00</item>
+        <item>34::0::Casablanca::UTC+00:00</item>
+        <item>35::0::mengluoweiya, Reykjavik::UTC+00:00</item>
+        <item>36::0::coordinated universal time::UTC+00:00</item>
+        <item>37::1::Tripoli::UTC+01:00</item>
+        <item>38::1::Amsterdam, Berlin, Bern, Rome, sitegeermo, Viana do Castelo::UTC+01:00</item>
+        <item>39::1::Belgrade, buladesilafa, Budapest, lubueryana, Prague::UTC+01:00</item>
+        <item>40::1::Brussels, Copenhagen, Madrid, Paris::UTC+01:00</item>
+        <item>41::1::Sarajevo, Skopje, Warsaw, Zagreb::UTC+01:00</item>
+        <item>42::1::Windhoek::UTC+01:00</item>
+        <item>43::1::West Central Africa::UTC+01:00</item>
+        <item>44::2::Beirut::UTC+02:00</item>
+        <item>45::2::Damascus::UTC+02:00</item>
+        <item>46::2::Eastern Europe::UTC+02:00</item>
+        <item>47::2::Harare, Pretoria::UTC+02:00</item>
+        <item>48::2::Helsinki, base shop, Riga, Sofia, Tallinn, Vilnius::UTC+02:00</item>
+        <item>49::2::Cairo::UTC+02:00</item>
+        <item>50::2::Athens, Bucharest::UTC+02:00</item>
+        <item>51::2::Jerusalem::UTC+02:00</item>
+        <item>52::3::yisitabuer::UTC+03:00</item>
+        <item>53::3::Amman::UTC+03:00</item>
+        <item>54::3::Baghdad::UTC+03:00</item>
+        <item>55::3::Kaliningrad, Minsk::UTC+03:00</item>
+        <item>56::3::Kuwait, Riyadh::UTC+03:00</item>
+        <item>57::3::Nairobi::UTC+03:00</item>
+        <item>58::4::Tehran::UTC+03:30</item>
+        <item>59::5::Abu Dhabi, Muscat::UTC+04:00</item>
+        <item>60::5::Yerevan::UTC+04:00</item>
+        <item>61::5::Baku::UTC+04:00</item>
+        <item>62::5::Tbilisi::UTC+04:00</item>
+        <item>63::5::Port Louis::UTC+04:00</item>
+        <item>64::3::Moscow, St Petersburg, Volgograd::UTC+03:00</item>
+        <item>65::6::Kabul::UTC+04:30</item>
+        <item>66::7::asihabade, Marrakech::UTC+05:00</item>
+        <item>67::7::Islamabad, Karachi::UTC+05:00</item>
+        <item>68::8::Chennai, Kolkata, Mumbai, New Delhi::UTC+05:30</item>
+        <item>69::8::silijiaya Worcester lamp Pula::UTC+05:30</item>
+        <item>70::9::Kathmandu::UTC+05:45</item>
+        <item>71::10::Astana::UTC+06:00</item>
+        <item>72::10::Dhaka::UTC+06:00</item>
+        <item>73::10::Yekaterinburg::UTC+06:00</item>
+        <item>74::11::Yangon::UTC+06:30</item>
+        <item>75::12::Bangkok, Hanoi, Jakarta::UTC+07:00</item>
+        <item>76::12::Novosibirsk::UTC+07:00</item>
+        <item>77::13::Beijing, Chongqing, Hong Kong, Urumqi::UTC+08:00</item>
+        <item>78::13::Kuala Lumpur, Singapore::UTC+08:00</item>
+        <item>79::13::Krasnoyarsk::UTC+08:00</item>
+        <item>80::13::Perth::UTC+08:00</item>
+        <item>81::13::Chinese Taipei::UTC+08:00</item>
+        <item>82::13::Ulan Bator::UTC+08:00</item>
+        <item>83::14::Osaka, Sapporo, Tokyo::UTC+09:00</item>
+        <item>84::14::Seoul::UTC+09:00</item>
+        <item>85::14::Il Yakutsk::UTC+09:00</item>
+        <item>86::15::Adelaide::UTC+09:30</item>
+        <item>87::15::Darwin::UTC+09:30</item>
+        <item>88::16::Brisbane::UTC+10:00</item>
+        <item>89::16::Guam, Port Moresby::UTC+10:00</item>
+        <item>90::16::Hobart::UTC+10:00</item>
+        <item>91::16::Canberra, Melbourne, Sydney::UTC+10:00</item>
+        <item>92::16::James Yakutsk::UTC+10:00</item>
+        <item>93::17::Vladivostok::UTC+11:00</item>
+        <item>94::17::Solomon Islands, xinhaliduoniya::UTC+11:00</item>
+        <item>95::18::Auckland, Wellington::UTC+12:00</item>
+        <item>96::18::Fiji::UTC+12:00</item>
+        <item>97::18::Magadan::UTC+12:00</item>
+        <item>98::18::Fiji Islands, Kamchatka, Marshall Islands::UTC+12:00</item>
+        <item>99::19::Nukualofa::UTC+13:00</item>
+        <item>100::19::Samoa::UTC+13:00</item>
+    </string-array>
+</resources>

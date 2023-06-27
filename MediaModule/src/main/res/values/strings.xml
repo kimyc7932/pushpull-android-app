@@ -1,0 +1,246 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="app_name">Bangtan CCTV</string>
+    <string name="lc_demo_cn">domestic</string>
+    <string name="lc_demo_overseas">overseas</string>
+    <string name="lc_demo_cn_title_tip">Lechange Domestic Open Platform</string>
+    <string name="lc_demo_overseas_title_tip">Lechange Overseas Open Platform</string>
+    <string name="lc_demo_choose_env_tip1">Open platform HTTP API gateway address</string>
+    <string name="lc_demo_choose_env_tip2">（No need to modify by default）</string>
+    <string name="lc_demo_choose_env_ak">App ID</string>
+    <string name="lc_demo_choose_env_ak_tip">Please input App ID</string>
+    <string name="lc_demo_choose_env_sk">App Secret</string>
+    <string name="lc_demo_choose_env_sk_tip">Please input App Secret</string>
+    <string name="lc_demo_sure">sure</string>
+    <string name="lc_demo_choose_env_tip3">tips：\n Please log in to the Lechange open platform website https://open.lechange.com, register as a Lechange developer account, log in to the website and create an application to get App ID and App Secret</string>
+    <string name="lc_demo_choose_env_tip4">tips：\n Please log in to the Lechange open platform website https://open.easy4ip.com, register as a Lechange developer account, log in to the website and create an application to get App ID and App Secret</string>
+    <string name="lc_demo_choose_env_tip5">《Compliance legal provisions》</string>
+    <string name="lc_demo_main_title">Bangtan CCTV Home</string>
+    <string name="lc_demo_main_offline">Device offline</string>
+    <string name="lc_demo_main_offline2">Device offline\nWhen deleting a device, delete the device first and\nPlease re-register after pressing the reset button for more than 10 seconds.</string>
+    <string name="lc_demo_main_no_device">No equipment,\nPlease click the upper right corner“ + ”add device</string>
+    <string name="lc_demo_device_version_tip">Firmware version</string>
+    <string name="lc_demo_device_version_new">The latest version</string>
+    <string name="lc_demo_device_version_current">current version</string>
+    <string name="lc_demo_device_move_check">Motion detection</string>
+    <string name="lc_demo_device_recoding_all">24/7 Recoding</string>
+    <string name="lc_demo_device_warn_setting">Alarm Settings</string>
+    <string name="lc_demo_device_version_new_tip">Currently the latest version</string>
+    <string name="lc_demo_device_deployment_tip">After opening, the video will be recorded when the screen changes are detected</string>
+    <string name="lc_demo_device_deployment_setting">Deployment settings</string>
+    <string name="lc_demo_device_detect_setting">Detect settings</string>
+    <string name="lc_demo_device_delete">Delete</string>
+    <string name="lc_demo_device_name_hint">Please enter the device name</string>
+    <string name="lc_demo_device_update">Upgrade</string>
+    <string name="lc_demo_device_begin_update">Start upgrade</string>
+    <string name="lc_demo_device_updateing">upgrading</string>
+    <string name="lc_demo_device_cancel">cancel</string>
+    <string name="lc_demo_device_update_tip">tips</string>
+    <string name="lc_demo_device_detail_title">Device details</string>
+    <string name="lc_demo_device_deployment_title">Arming settings</string>
+    <string name="lc_demo_device_version_title">Device program version</string>
+    <string name="lc_demo_device_update_msg">The upgrade process will last for a few minutes, please ensure that the device is powered off when upgrading</string>
+    <string name="lc_demo_device_modify_success">Successfully modified</string>
+    <string name="lc_demo_device_unbind_success">Unbind successfully</string>
+    <string name="lc_demo_device_update_success">Update successed</string>
+    <string name="lc_demo_device_cloud_video">Cloud</string>
+    <string name="lc_demo_device_local_video">Equipment</string>
+    <string name="lc_demo_device_more_video">No video today, please wait for more ></string>
+    <string name="lc_demo_device_cloud_state_not_opened">Cloud video package is not opened</string>
+    <string name="lc_demo_device_cloud_state_expired">Cloud video package has expired</string>
+    <string name="lc_demo_device_cloud_state_suspended">Cloud video package suspended</string>
+    <string name="lc_demo_device_video_play_error">Playback failed</string>
+    <string name="lc_demo_device_video_play_loading">Video security channel is being established. . .</string>
+    <string name="lc_demo_device_video_play_change">Switching video security channel. . .</string>
+    <string name="lc_demo_device_capture_success">Screenshot successful</string>
+    <string name="lc_demo_device_capture_failed">Screenshot failed</string>
+    <string name="lc_demo_device_record_begin">Start recording</string>
+    <string name="lc_demo_device_record_stop">End screen recording</string>
+    <string name="lc_demo_device_talk_open_failed">Intercom failed to open</string>
+    <string name="lc_demo_device_talk_open_success">Intercom Begin</string>
+    <string name="lc_demo_device_talk_close_success">Intercom Close</string>
+    <string name="lc_demo_device_record_loading_more">See more</string>
+    <string name="lc_demo_device_record_edit">Edit</string>
+    <string name="lc_demo_device_record_edit_finish">Finish</string>
+    <string name="lc_demo_device_record_delete_success">successfully deleted</string>
+    <string name="lc_demo_device_record_download">Download</string>
+    <string name="lc_demo_device_record_download_finish">Download completed</string>
+    <string name="lc_demo_device_record_download_error">Download failed, click to try again</string>
+    <string name="lc_demo_device_record_download_begin">Start download</string>
+    <string name="lc_demo_device_encrypt_key_tip">The video is encrypted, please enter the password</string>
+    <string name="lc_demo_device_encrypt_device_password_tip">The video is encrypted, please enter the device password</string>
+    <string name="lc_demo_device_sure">Sure</string>
+    <string name="lc_demo_device_cur_wifi">net config</string>
+    <string name="lc_demo_device_serial_tip">Serial NO</string>
+    <string name="lc_demo_device_type_tip">Device model</string>
+    <string name="lc_demo_device_name">Device Name</string>
+    <string name="lc_demo_device_nvr_no_channel">no channel</string>
+    <string name="lc_demo_device_delete_choose_all">Choose All</string>
+    <string name="lc_demo_device_delete_sure">Sure Delete？</string>
+    <string name="lc_demo_device_delete_exit">Sure Exit？</string>
+    <string name="lc_demo_device_delete_exit_tip">The video download is not completed, exit will cancel the download, whether to exit</string>
+    <string name="lc_demo_device_today_no_record">today no record</string>
+    <string name="lc_demo_device_local_sd">No storage medium</string>
+    <string name="lc_demo_device_cloud_not_open">Cloud storage is not enabled</string>
+    <string name="network_error">Unable to connect to network</string>
+
+    <!-- login -->
+    <string name="login_error">Can not Login. Please check ID/PW</string>
+    <string name="login_server_error">Can not login to server</string>
+    <!-- 회원가입 -->
+    <string name="register_title">Register</string>
+    <string name="user_reg_ok">You have joined</string>
+    <string name="user_reg_fail">Can\'t sign up as a member.\nPlease check your signup information</string>
+    <string name="user_reg_fail_for_serverlogin">Can\'t register as a member.\nPlease contact the administrator.</string>
+    <string name="user_input_passwd_error">Please enter a password</string>
+    <string name="user_input_passwd_mismatch">Passwords do not match</string>
+    <string name="user_input_passwd_invalid">The password format is a combination of letters/numbers/special characters.</string>
+    <string name="user_input_auth_email_error">Please verify your email</string>
+    <string name="user_input_name_error">Please enter your nickname</string>
+    <string name="user_input_phonenum_error">Please enter your mobile number</string>
+    <string name="user_reg_exist">This account is already registered</string>
+    <string name="user_withdrawal_success">Withdrawal has been processed</string>
+    <string name="user_withdrawal_error">Unable to withdraw.\nPlease contact the administrator</string>
+    <string name="user_withdrawal_device_error">After device deletion, please withdraw</string>
+    <string name="register_input_auth_hint">Please enter a email authcode</string>
+    <string name="register_input_nick_hint">Please enter your nickname</string>
+    <string name="register_input_phone_hit">Please enter your mobile phone number</string>
+
+    <!-- popup -->
+    <string name="popup_title">Alarm</string>
+    <string name="popup_logout_text">Are you want to log out?</string>
+    <string name="popup_withdrawal_text">Are you want to withdraw?</string>
+    <string name="popup_confirm">Confirm</string>
+    <string name="popup_cancel">Cancel</string>
+    <string name="popup_delete_text">Do you want to delete?</string>
+    <!-- mypage -->
+    <string name="mypage_title">Mypage</string>
+    <string name="password_change_success">Password has been changed.</string>
+    <string name="password_change_fail">Can\'t change the password.\nPlease contact the administrator.</string>
+    <string name="item_email">Email</string>
+    <string name="item_passwd">Password</string>
+    <string name="item_passwd_modify">Modify Password</string>
+    <string name="item_mobile">Mobile Number</string>
+    <string name="item_version">Version</string>
+    <string name="item_logout">Logout</string>
+    <string name="item_withdrawal">Withdrawal</string>
+    <string name="pw_change_prev_password">Please enter your old password</string>
+    <string name="pw_change_new_password">Please enter the password to change</string>
+    <string name="pw_change_new_password_retry">Please re-enter the password to change</string>
+    <string name="pw_change_btn">Modify Password</string>
+    <string name="tel_change_new_mobile">Please enter the mobile phone number to change</string>
+    <string name="tel_change_auth">Auth</string>
+    <string name="tel_change_auth_desc">Please enter auth code</string>
+    <string name="tel_change_btn">Change Mobile Number</string>
+    <!-- common -->
+    <string name="input_pw_hint">Password (8-15 alpha/numeric/special characters)</string>
+    <string name="input_pw_hint2">Please enter the password</string>
+    <string name="input_pw_hint_retry">Please re-enter the password</string>
+    <string name="input_email_hint">Please enter a email</string>
+    <string name="input_email_hint2">Please enter your email in the form of @</string>
+    <string name="btn_auth">Auth</string>
+    <string name="btn_auth_confirm">Confirm</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_passwd_reset">Password Reset</string>
+    <!-- bottom navigation -->
+    <string name="navi_notice">Notice</string>
+    <string name="navi_home">Home</string>
+    <string name="navi_mypage">Mypage</string>
+    <!-- password reset -->
+    <string name="pwreset_title">Password Reset</string>
+    <string name="pwreset_input_email_hint">Please enter the registered email</string>
+    <string name="pwreset_input_phone_hint">Please enter the mobile phone number</string>
+    <string name="pwreset_input_phone_auth_hint">Please enter the authcode</string>
+    <string name="pwreset_info_title">Password Reset Tip.</string>
+    <string name="pwreset_info_hint1">We will notify you after resetting your password to the email address you entered.</string>
+    <string name="pwreset_info_hint2">It may take some time to find your account</string>
+    <!-- notice -->
+    <string name="notice_title">Notice</string>
+    <!-- 디바이스 추가 & 삭제 -->
+    <string name="device_reg_fail">Unable to register device.</string>
+    <string name="device_delete_fail">Unable to delete device.</string>
+
+    <!-- local storage -->
+    <string name="lc_sdcard_storage">Checking storage capacity.</string>
+    <string name="lc_sdcard_text">LocalStorage</string>
+    <string name="lc_sdcard_format_text">Format</string>
+    <string name="lc_sdcard_formating_text">Formatting...</string>
+    <string name="lc_sdcard_useable">SDCard Usable.</string>
+    <string name="lc_sdcard_format_finish_text">Format is completed.</string>
+    <string name="lc_sdcard_not_exists">No storage medium</string>
+    <string name="lc_sdcard_abnormal">SDCard is abnormal.</string>
+    <string name="lc_sdcard_format_dialog">Are you sure want to format? Start format then all data is remove and can not cancel.</string>
+
+    <!-- common -->
+    <string name="lc_common_search">Search</string>
+    <string name="lc_common_quit2">Pressing Back again will close the app.</string>
+
+    <!-- timezone -->
+    <string name="lc_timezone_loading">Searching Timezone...</string>
+    <string name="lc_timezone_text">Timezone</string>
+    <string name="lc_timezone_input_city_hint">Input city name.</string>
+    <string name="lc_timezone_setup_finish">Timezone Setup finished.</string>
+
+    <!-- absound -->
+    <string name="lc_absound_text">Sound Detection</string>
+
+    <!-- smart motion -->
+    <string name="lc_smart_motion_text">Smart Motion</string>
+
+    <!-- reverse image -->
+    <string name="lc_reverse_image_text">Reserve Image</string>
+
+    <!-- close camera -->
+    <string name="lc_close_camera_text">Privacy Mode</string>
+    <string name="lc_common_version_update">Update</string>
+    <string name="lc_common_push_notice">Push</string>
+    <string name="lc_close_camera_not_play">Can not play camera that why privacy mode is on.</string>
+
+    <string name="lc_notice_delete_dialog_title">Delete notice</string>
+    <string name="lc_notice_delete_ok">Delete finish.</string>
+    <string name="lc_notice_delete_dialog_msg">Are you sure delete all notice?</string>
+
+    <string name="lc_device_reset">Reset Device</string>
+    <string name="lc_device_reset_text">Delete the defective camera so that it can be added again.</string>
+    <string name="lc_device_reset_confirm">Do you want to reset a faulty camera?</string>
+    <string name="lc_device_reset_fin">The camera has been initialized.</string>
+    <string name="lc_all_device_ok">All registered cameras are OK.</string>
+
+    <string name="lc_customer_support">Customer Support</string>
+    <string name="lc_customer_support_text">How to connect CCTV and how to use it.</string>
+
+    <string name="lc_device_share">Share the camera</string>
+    <string name="lc_device_share_list">Shared device</string>
+    <string name="lc_device_share_user_list">Shared user list</string>
+    <string name="lc_device_share_confirm">Do you want to share camera?</string>
+    <string name="lc_device_share_fail_me">Cannot share cameras on your own account.</string>
+
+    <string name="lc_not_exists_account">Account Not found.</string>
+    <string name="lc_not_exists_account_text">Unregistered account. If the shared member registers with the above email[::invite_email::], he/she will automatically get permission.</string>
+    <string name="lc_common_process_ok">Processed.</string>
+
+    <string name="lc_shared_dt_info">It was shared on ::shared_dt::</string>
+
+    <string name="lc_app_update_release">Application Update</string>
+    <string name="lc_app_update">Application Update</string>
+    <string name="lc_app_update_confirm">There is a new version. Would you like to update?</string>
+
+    <string name="lc_delete_share_release">Turn off</string>
+    <string name="lc_delete_share">Turn off camera sharing</string>
+    <string name="lc_delete_share_confirm">Are you sure you want to turn off camera sharing?</string>
+
+    <string name="lc_blockchain_auth_fail">Blockchain authentication fail</string>
+    <string name="lc_not_exists_account_text2">Unregistered account.</string>
+
+    <string name="lc_text_light">Light</string>
+    <string name="lc_text_siren">Siren</string>
+
+    <string name="lc_ksw_connecting_blockchain_server">Connecting to the blockchain server...</string>
+    <string name="lc_ksw_auth_blockchain_server">Confirming the authorization with blockchain server..</string>
+    <string name="lc_ksw_authfin_blockchain_server">Authorization finished.</string>
+
+    <string name="device_manager_no_cloud_storage">Cloud storage service is not opened</string>
+    <string name="lc_demo_device_record_d_time">Recording time cannot be less than 3 seconds</string>
+</resources>

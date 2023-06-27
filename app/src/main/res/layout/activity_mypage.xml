@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BaseContentBack"
+    tools:context=".ui.MyPageActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_100"
+        android:background="@color/lc_demo_color_ffffff">
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/px_20"
+            android:paddingRight="@dimen/px_20">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/lc_demo_nav_back">
+            </ImageView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/mypage_title"
+            android:textColor="@color/BaseTitleText"
+            android:textSize="@dimen/px_36"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <!-- 메인 정보 -->
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_title"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/ll_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lc_demo_color_ffffff"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <!-- 메일 정보 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_120"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/icon_mypage_mail"></ImageView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="4"
+                        android:text="@string/item_email"
+                        android:textColor="@color/BaseTitleText"
+                        android:textSize="16dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:gravity="right"
+                    android:text=""
+                    android:textSize="16dp"></TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_1"
+                android:background="@color/lc_demo_color_d9d9d9"
+                android:paddingLeft="@dimen/px_30"
+                android:paddingRight="@dimen/px_30"></View>
+
+            <!-- 비밀번호 변경 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_120"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/icon_myapge_password"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/item_passwd"
+                        android:textColor="@color/BaseTitleText"
+                        android:textSize="16dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pw_change_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_passwd_modify"
+                        android:textSize="16dp"></TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/lc_demo_common_btn_next"></ImageView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_1"
+                android:background="@color/lc_demo_color_d9d9d9"
+                android:paddingLeft="@dimen/px_30"
+                android:paddingRight="@dimen/px_30"></View>
+
+            <!-- 전화번호 변경 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_120"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/icon_mypage_tel"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/item_mobile"
+                        android:textColor="@color/BaseTitleText"
+                        android:textSize="16dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_telchange_set"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_phone_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"></TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/lc_demo_common_btn_next"></ImageView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_1"
+                android:background="@color/lc_demo_color_d9d9d9"
+                android:paddingLeft="@dimen/px_30"
+                android:paddingRight="@dimen/px_30"></View>
+
+            <!-- 푸시알림 변경 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_120"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_sw_push"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/lc_common_push_notice"
+                        android:textColor="@color/BaseTitleText"
+                        android:textSize="16dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_push_change_set"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_puch_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/iv_push_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/switch_on"></ImageView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_1"
+                android:background="@color/lc_demo_color_d9d9d9"
+                android:paddingLeft="@dimen/px_30"
+                android:paddingRight="@dimen/px_30"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_120"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/icon_mypage_ver"></ImageView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="4"
+                        android:text="@string/item_version"
+                        android:textColor="@color/BaseTitleText"
+                        android:textSize="16dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_version"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:gravity="right"
+                    android:text="v1.0.0"
+                    android:textSize="16dp"></TextView>
+
+                <Button
+                    android:id="@+id/btn_version_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/lc_common_version_update"
+                    android:visibility="gone"></Button>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_1"
+                android:background="@color/lc_demo_color_d9d9d9"
+                android:paddingLeft="@dimen/px_30"
+                android:paddingRight="@dimen/px_30"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_120"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/icon_sw_device_reset"></ImageView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="4"
+                        android:text="@string/lc_device_reset"
+                        android:textColor="@color/BaseTitleText"
+                        android:textSize="16dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_reset"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:gravity="right"
+                    android:text="@string/lc_device_reset_text"
+                    android:textSize="16dp"></TextView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_1"
+                android:background="@color/lc_demo_color_d9d9d9"
+                android:paddingLeft="@dimen/px_30"
+                android:paddingRight="@dimen/px_30"></View>
+
+            <!-- 고객지원 -->
+            <LinearLayout
+                android:id="@+id/ll_support"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_120"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_customer_support"></ImageView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="4"
+                        android:text="@string/lc_customer_support"
+                        android:textColor="@color/BaseTitleText"
+                        android:textSize="16dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_custsupport"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:gravity="right"
+                    android:text="@string/lc_customer_support_text"
+                    android:textSize="16dp"></TextView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_1"
+                android:background="@color/lc_demo_color_d9d9d9"
+                android:paddingLeft="@dimen/px_30"
+                android:paddingRight="@dimen/px_30"></View>
+
+            <!-- 카카오채널 -->
+            <LinearLayout
+                android:id="@+id/ll_kakao"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_120"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_sw_kakao"></ImageView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="4"
+                        android:text="카카오톡채널"
+                        android:textColor="@color/BaseTitleText"
+                        android:textSize="16dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_kakao"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:gravity="right"
+                    android:text="카카오톡 채널 친구추가..."
+                    android:textSize="16dp"></TextView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_1"
+                android:background="@color/lc_demo_color_d9d9d9"
+                android:paddingLeft="@dimen/px_30"
+                android:paddingRight="@dimen/px_30"></View>
+
+        </LinearLayout>
+
+        <!-- 로그아웃 -->
+        <LinearLayout
+            android:id="@+id/ll_logout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:layout_below="@id/ll_main"
+            android:background="@color/BaseBtnBack"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/item_logout"
+                android:textColor="@color/BaseWhite"
+                android:textStyle="bold"
+                android:textSize="16dp">
+            </TextView>
+
+        </LinearLayout>
+
+        <!-- 회원 탈퇴 -->
+        <LinearLayout
+            android:id="@+id/ll_withdrawal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_100"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:layout_below="@id/ll_logout"
+            android:background="@color/BaseBtnBack"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/item_withdrawal"
+                android:textColor="@color/BaseWhite"
+                android:textStyle="bold"
+                android:textSize="16dp">
+            </TextView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- 비밀번호 변경 상세  -->
+    <RelativeLayout
+        android:id="@+id/rl_pw_change"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_title"
+        android:background="@color/BaseContentBack"
+        android:padding="20dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|top"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_old_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@drawable/edittext_rounded"
+                    android:gravity="center"
+                    android:hint="@string/pw_change_prev_password"
+                    android:textSize="16sp"
+                    android:maxLength="15"
+                    style="@style/BaseEdit"
+                    android:inputType="textPassword">
+                </EditText>
+                <EditText
+                    android:id="@+id/et_new_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittext_rounded"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:maxLength="15"
+                    style="@style/BaseEdit"
+                    android:hint="@string/pw_change_new_password"
+                    android:inputType="textPassword">
+                </EditText>
+                <EditText
+                    android:id="@+id/et_new_pw_retry"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittext_rounded"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:maxLength="15"
+                    style="@style/BaseEdit"
+                    android:hint="@string/pw_change_new_password_retry"
+                    android:inputType="textPassword">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_password_change_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/user_module_bg_commit_button_press"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/c43"
+                    android:textSize="16sp"
+                    android:text="@string/pw_change_btn">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 비밀번호 변경 상세  -->
+    <RelativeLayout
+        android:id="@+id/rl_tel_change"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_title"
+        android:background="@color/BaseContentBack"
+        android:padding="20dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|top"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <EditText
+                        android:id="@+id/et_tel_change"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_weight="8"
+                        android:background="@drawable/edittext_rounded"
+                        android:gravity="center"
+                        android:hint="@string/tel_change_new_mobile"
+                        android:textSize="16sp"
+                        android:maxLength="15"
+                        style="@style/BaseEdit"
+                        android:inputType="phone">
+                    </EditText>
+                    <TextView
+                        android:id="@+id/tv_auth_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_weight="2"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@color/BaseWhite"
+                        android:textColor="@color/BaseTitleText"
+                        android:text="@string/tel_change_auth">
+                    </TextView>
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/et_tel_change_authcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittext_rounded"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:maxLength="6"
+                    style="@style/BaseEdit"
+                    android:hint="@string/tel_change_auth_desc"
+                    android:inputType="text">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tel_change_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/user_module_bg_commit_button_press"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/c43"
+                    android:textSize="16sp"
+                    android:text="@string/tel_change_btn">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

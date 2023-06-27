@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bangtan CCTV</string>
+    <string name="lc_demo_cn">domestic</string>
+    <string name="lc_demo_overseas">overseas</string>
+    <string name="lc_demo_cn_title_tip">Lechange Domestic Open Platform</string>
+    <string name="lc_demo_overseas_title_tip">Lechange Overseas Open Platform</string>
+    <string name="lc_demo_choose_env_tip1">Open platform HTTP API gateway address</string>
+    <string name="lc_demo_choose_env_tip2">（No need to modify by default）</string>
+    <string name="lc_demo_choose_env_ak">App ID</string>
+    <string name="lc_demo_choose_env_ak_tip">Please input App ID</string>
+    <string name="lc_demo_choose_env_sk">App Secret</string>
+    <string name="lc_demo_choose_env_sk_tip">Please input App Secret</string>
+    <string name="lc_demo_sure">sure</string>
+    <string name="lc_demo_choose_env_tip3">tips：\n Please log in to the Lechange open platform website https://open.lechange.com, register as a Lechange developer account, log in to the website and create an application to get App ID and App Secret</string>
+    <string name="lc_demo_choose_env_tip4">tips：\n Please log in to the Lechange open platform website https://open.easy4ip.com, register as a Lechange developer account, log in to the website and create an application to get App ID and App Secret</string>
+    <string name="lc_demo_choose_env_tip5">《Compliance legal provisions》</string>
+    <string name="lc_demo_main_title">Bangtan CCTV Home</string>
+    <string name="lc_demo_main_offline">Thiết bị ngoại tuyến</string>
+    <string name="lc_demo_main_offline2">thiết bị ngoại tuyến\nKhi xóa thiết bị, Xóa thiết bị trước, sau đó\nnhaans giữ phím reset trên 10 giáyau đó đăng ký lại.</string>
+    <string name="lc_demo_main_no_device"> Không có thiết bị đăng kí.</string>
+    <string name="lc_demo_device_version_tip">Phiên bản phần mềm</string>
+    <string name="lc_demo_device_version_new">Phiên bản mới nhất</string>
+    <string name="lc_demo_device_version_current">Phiên bản hiện tại</string>
+    <string name="lc_demo_device_move_check">Quan sát chuyển động</string>
+    <string name="lc_demo_device_warn_setting">Thiết lập thông báo</string>
+    <string name="lc_demo_device_version_new_tip">Hiện đang là phiên bản mới nhất</string>
+    <string name="lc_demo_device_deployment_tip">CCTV hoạt động sau đăng ký thì mọi biến đổi màn hình sẽ đều được ghi lại. </string>
+    <string name="lc_demo_device_deployment_setting">Thiết lập thông báo</string>
+    <string name="lc_demo_device_delete">Xóa bỏ</string>
+    <string name="lc_demo_device_name_hint">Hãy nhập tên thiết bị</string>
+    <string name="lc_demo_device_update">Cập nhật</string>
+    <string name="lc_demo_device_begin_update">Bắt đầu cập nhật </string>
+    <string name="lc_demo_device_updateing">Đang cập nhật...</string>
+    <string name="lc_demo_device_cancel">Hủy</string>
+    <string name="lc_demo_device_update_tip">tips</string>
+    <string name="lc_demo_device_detail_title">Chi tiết thiết bị</string>
+    <string name="lc_demo_device_deployment_title">Thiết lập thông báo</string>
+    <string name="lc_demo_device_version_title">Phiên bản chương trình thiết bị </string>
+    <string name="lc_demo_device_update_msg">Quá trình cập nhật kéo dài vài phút. Vui lòng kiểm tra nguồn điện đang bật suốt quá trình cập nhật</string>
+    <string name="lc_demo_device_modify_success">Đã điều chỉnh</string>
+    <string name="lc_demo_device_unbind_success">Đã Xóa bỏ </string>
+    <string name="lc_demo_device_update_success">Đã cập nhật</string>
+    <string name="lc_demo_device_cloud_video">Cloud</string>
+    <string name="lc_demo_device_local_video">Vị trí lưu trữ</string>
+    <string name="lc_demo_device_more_video">Hôm nay không có video, vui lòng chờ thêm></string>
+    <string name="lc_demo_device_cloud_state_not_opened">Cloud video đang không mở</string>
+    <string name="lc_demo_device_cloud_state_expired">Cloud video đã quá hạn</string>
+    <string name="lc_demo_device_cloud_state_suspended">Cloud video đã bị cấm</string>
+    <string name="lc_demo_device_video_play_error">Phát lại bị lỗi</string>
+    <string name="lc_demo_device_video_play_loading">Video security channel is being established. . .</string>
+    <string name="lc_demo_device_video_play_change">Switching video security channel. . .</string>
+    <string name="lc_demo_device_capture_success">Screenshot successful</string>
+    <string name="lc_demo_device_capture_failed">Screenshot failed</string>
+    <string name="lc_demo_device_record_begin">Start recording</string>
+    <string name="lc_demo_device_record_stop">End screen recording</string>
+    <string name="lc_demo_device_talk_open_failed">Intercom failed to open</string>
+    <string name="lc_demo_device_talk_open_success">Intercom Begin</string>
+    <string name="lc_demo_device_talk_close_success">Intercom Close</string>
+    <string name="lc_demo_device_record_loading_more">See more</string>
+    <string name="lc_demo_device_record_edit">Edit</string>
+    <string name="lc_demo_device_record_edit_finish">Finish</string>
+    <string name="lc_demo_device_record_delete_success">successfully deleted</string>
+    <string name="lc_demo_device_record_download">Download</string>
+    <string name="lc_demo_device_record_download_finish">Download completed</string>
+    <string name="lc_demo_device_record_download_error">Download failed, click to try again</string>
+    <string name="lc_demo_device_record_download_begin">Start download</string>
+    <string name="lc_demo_device_encrypt_key_tip">The video is encrypted, please enter the password</string>
+    <string name="lc_demo_device_encrypt_device_password_tip">The video is encrypted, please enter the device password</string>
+    <string name="lc_demo_device_sure">Xác nhận</string>
+    <string name="lc_demo_device_cur_wifi">Cài đặt mạng</string>
+    <string name="lc_demo_device_serial_tip">Serial NO</string>
+    <string name="lc_demo_device_type_tip">Loại thiết bị</string>
+    <string name="lc_demo_device_name">Tên thiết bị</string>
+    <string name="lc_demo_device_nvr_no_channel">no channel</string>
+    <string name="lc_demo_device_delete_choose_all">Choose All</string>
+    <string name="lc_demo_device_delete_sure">Bạn muốn xóa bỏ？</string>
+    <string name="lc_demo_device_delete_exit">Bạn muốn kết thúc？</string>
+    <string name="lc_demo_device_delete_exit_tip">The video download is not completed, exit will cancel the download, whether to exit</string>
+    <string name="lc_demo_device_today_no_record">Hôm nay không ghi hình được</string>
+    <string name="lc_demo_device_local_sd">No storage medium</string>
+    <string name="lc_demo_device_cloud_not_open">Cloud storage is not enabled</string>
+    <string name="network_error">Không kết nối được mạng.</string>
+
+    <!-- login -->
+    <string name="login_error">Không thể đăng nhập. Xác nhận lại ID/PW </string>
+    <string name="login_server_error">Không thể đăng nhập vào server.</string>
+    <!-- 회원가입 -->
+    <string name="register_title">Đăng kí thành viên</string>
+    <string name="user_reg_ok">Đã đăng kí thành viên.</string>
+    <string name="user_reg_fail">Không thể đăng ký thành viên.\n Kiểm tra lại thông tin đăng ký</string>
+    <string name="user_reg_fail_for_serverlogin">Không thể đăng nhập thành viên.\n Vui lòng hỏi người quản lý.</string>
+    <string name="user_input_passwd_error">Hãy nhập mật khẩu</string>
+    <string name="user_input_passwd_mismatch">Mật khẩu không thống nhất</string>
+    <string name="user_input_passwd_invalid">Hình thức mật khẩu là kết hợp chữ/số/ kí tự đặc biệt </string>
+    <string name="user_input_auth_email_error">Hãy xác thực email</string>
+    <string name="user_input_name_error">Hãy nhập nickname</string>
+    <string name="user_input_phonenum_error">Hãy nhập số điện thoại</string>
+    <string name="user_reg_exist">Tài khoản đã đăng ký</string>
+    <string name="user_withdrawal_success">Đã hủy thành viên</string>
+    <string name="user_withdrawal_error">Không thể xóa bỏ thành viên.\n vui lòng hỏi người quản lí</string>
+    <string name="user_withdrawal_device_error">Hãy hủy thành viên sau khi xóa thiết bị</string>
+    <string name="register_input_auth_hint">Nhập số xác nhận email</string>
+    <string name="register_input_nick_hint">Nhập tên ảo nickname</string>
+    <string name="register_input_phone_hit">Nhập số điện thoại</string>
+    <!-- popup -->
+    <string name="popup_title">Thông báo</string>
+    <string name="popup_logout_text">Bạn muốn thoát ra?</string>
+    <string name="popup_withdrawal_text">Bạn muốn hủy thành viên?</string>
+    <string name="popup_confirm">Xác nhận</string>
+    <string name="popup_cancel">Hủy</string>
+    <string name="popup_delete_text">Bạn muốn xóa bỏ?</string>
+    <!-- mypage -->
+    <string name="mypage_title">Trang của tôi</string>
+    <string name="password_change_success">Đã thay đổi mật khẩu.</string>
+    <string name="password_change_fail">Không thể thay đổi mật khẩu.\n Vui lòng hỏi người quản lý .</string>
+    <string name="item_email">Thông tin email</string>
+    <string name="item_passwd">Mật khẩu</string>
+    <string name="item_passwd_modify">Thay đổi mật khẩu</string>
+    <string name="item_mobile">Thông tin điện thoại</string>
+    <string name="item_version">Thông tin phiên bản</string>
+    <string name="item_logout">Thoát ra</string>
+    <string name="item_withdrawal">Hủy thành viên</string>
+    <string name="pw_change_prev_password">Nhập mật khẩu cũ</string>
+    <string name="pw_change_new_password">Nhập mật khẩu mới</string>
+    <string name="pw_change_new_password_retry">Nhập lại mật khẩu mới</string>
+    <string name="pw_change_btn">Thay đổi mật khẩu</string>
+    <string name="tel_change_new_mobile">Nhấp  số điện thoại mới</string>
+    <string name="tel_change_auth">Xác thực</string>
+    <string name="tel_change_auth_desc">Nhập code xác nhận</string>
+    <string name="tel_change_btn">Thay đổi số điện thoại</string>
+    <!-- common -->
+    <string name="input_pw_hint">Mật khẩu (8~15 kí tự tiếng anh/số/kí tự đặc biệt)</string>
+    <string name="input_pw_hint2">Nhập mật khẩu</string>
+    <string name="input_pw_hint_retry">Nhập lại mật khẩu</string>
+    <string name="input_email_hint">Nhập email</string>
+    <string name="input_email_hint2">Nhập email hình thái @</string>
+    <string name="btn_auth">Xác thực</string>
+    <string name="btn_auth_confirm">Xác nhận</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Đăng ký thành viên</string>
+    <string name="btn_passwd_reset">Đặt lại mật khẩu</string>
+
+    <!-- bottom navigation -->
+    <string name="navi_notice">Thông báo</string>
+    <string name="navi_home">Home</string>
+    <string name="navi_mypage">Trang của tôi</string>
+    <!-- password reset -->
+    <string name="pwreset_title">Nhập lại mật khẩu</string>
+    <string name="pwreset_input_email_hint">Nhập địa chỉ email</string>
+    <string name="pwreset_input_phone_hint">Nhập số điện thoại</string>
+    <string name="pwreset_input_phone_auth_hint">Nhập số xác thực</string>
+    <string name="pwreset_info_title">Hướng dẫn đặt lại mật khẩu</string>
+    <string name="pwreset_info_hint1">Đặt lại mật khẩu hội viên bằng email đã nhập</string>
+    <string name="pwreset_info_hint2">Vui lòng chờ trong giây lát để tìm tài khoản </string>
+    <!-- notice -->
+    <string name="notice_title">Thông tin thông báo</string>
+    <string name="device_reg_fail">Không thể đăng ký thiết bị.</string>
+    <string name="device_delete_fail">Không thể xóa bỏthietes bị.</string>
+
+    <string name="lc_sdcard_storage">Đang tìm kiếm dung lượng lưu trữ.</string>
+    <string name="lc_sdcard_text">Phần lưu trữ</string>
+    <string name="lc_sdcard_format_text">Định dạng</string>
+    <string name="lc_sdcard_useable">Có thể sử dụng.</string>
+    <string name="lc_sdcard_formating_text">Đang định dạng...</string>
+    <string name="lc_sdcard_format_finish_text">Đã định dạng xong.</string>
+    <string name="lc_sdcard_not_exists">Không có thiết bị lưu trữ.</string>
+    <string name="lc_sdcard_abnormal">Thẻ SD đã bị hỏng.</string>
+    <string name="lc_sdcard_format_dialog">Có định dạng không? Nếu bắt đầu định dạng thì không thể hủy được và tất cả dữ liệu sẽ bị xóa.</string>
+
+    <!-- common -->
+    <string name="lc_common_search">Tìm kiếm</string>
+    <string name="lc_common_quit2">Nhấn quay lại 1 lần nữa thì ứng dụng sẽ đóng lại.</string>
+
+    <!-- timezone -->
+    <string name="lc_timezone_loading">Tuy vấn múi giờ...</string>
+    <string name="lc_timezone_text">Múi giờ</string>
+    <string name="lc_timezone_input_city_hint">Hãy nhập tên thành phố</string>
+    <string name="lc_timezone_setup_finish">Đã cài đặt xong.</string>
+
+    <string name="lc_absound_text">Phát hiện âm thanh</string>
+
+    <string name="lc_smart_motion_text">Chuyển động thông minh</string>
+
+    <!-- 이미지 회전 -->
+    <string name="lc_reverse_image_text">Quay hình</string>
+
+    <!-- close camera -->
+    <string name="lc_close_camera_text">Đóng ống kính camera</string>
+    <string name="lc_common_version_update">Cập nhật</string>
+    <string name="lc_common_push_notice">Thông báo Push</string>
+    <string name="lc_close_camera_not_play">Đang ở chế độ đóng camera, không thể phát hình.</string>
+    <string name="lc_notice_delete_dialog_title"> Xóa bỏ thông báo</string>
+    <string name="lc_notice_delete_ok">Thông báo đã bị xóa.</string>
+    <string name="lc_notice_delete_dialog_msg">Bạn muốn bỏ thông báo?</string>
+
+    <string name="lc_device_reset">Cài đặt lại thiết bị</string>
+    <string name="lc_device_reset_text">Xóa bỏ camera lỗi để thêm lại.</string>
+    <string name="lc_device_reset_confirm">Cài đặt lại Camera lỗi?</string>
+    <string name="lc_device_reset_fin">Đã cài đặt lại camera.</string>
+    <string name="lc_all_device_ok">Tất cả Camera đã đăng kí là bình thường.</string>
+    <string name="lc_device_share">Chia sẻ Camera</string>
+    <string name="lc_device_share_list">Chia sẻ thiết bị</string>
+    <string name="lc_device_share_user_list">Chia sẻ người dùng</string>
+    <string name="lc_device_share_confirm">Chia sẻ camera?</string>
+    <string name="lc_device_share_fail_me">Không thể chia sẻ máy ảnh trên tài khoản của riêng bạn.</string>
+
+    <string name="lc_customer_support">Hỗ trợ khách hàng</string>
+    <string name="lc_customer_support_text">Cách kết nối camera quan sát và cách sử dụng.</string>
+
+    <string name="lc_not_exists_account">Tài khoản chưa đăng kí</string>
+    <string name="lc_not_exists_account_text">Tài khoản chưa được đăng kí.khi thành viên được chia sẻ đăng ký email[::invite_email::] sẽ tự động nhận quyền hạn .</string>
+    <string name="lc_not_exists_account_text2"> Đây là một tài khoản chưa đăng ký.</string>
+    <string name="lc_common_process_ok">Đã xử lí xong</string>
+
+    <string name="lc_shared_dt_info">::shared_dt::đã chia sẻ.</string>
+
+    <string name="lc_app_update_release">Cập nhật</string>
+    <string name="lc_app_update">Cập nhật ứng dụng</string>
+    <string name="lc_app_update_confirm">Có một phiên bản mới. Bạn có muốn cập nhật không?</string>
+
+    <string name="lc_delete_share_release">Xóa</string>
+    <string name="lc_delete_share">Bỏ chia sẻ camera</string>
+    <string name="lc_delete_share_confirm">Hủy tính năng chia sẻ Camera?</string>
+
+    <string name="lc_blockchain_auth_fail">Xác thực blockchain bị thất bại</string>
+
+    <string name="lc_text_light">Nhẹ</string>
+    <string name="lc_text_siren">Còi báo động</string>
+
+    <string name="lc_ksw_add_camera">Thêm máy ảnh</string>
+
+</resources>

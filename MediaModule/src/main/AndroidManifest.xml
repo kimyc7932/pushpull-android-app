@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lc.media">
+
+    <application>
+        <activity
+            android:name=".DeviceOnlineMediaPlayActivity"
+            android:configChanges="orientation|keyboardHidden|smallestScreenSize|screenLayout|screenSize|locale"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true"/>
+
+        <activity
+            android:name=".DeviceOnlineMediaPlayActivityNew"
+            android:configChanges="orientation|keyboardHidden|smallestScreenSize|screenLayout|screenSize|locale"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true"/>
+    </application>
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- timezone -->
+    <string name="lc_timezone_loading">시간대 조회중...</string>
+    <string name="lc_timezone_text">시간대</string>
+    <string name="lc_timezone_input_city_hint">도시이름을 입력하세요</string>
+    <string name="lc_timezone_setup_finish">설정되었습니다.</string>
+
+    <string name="lc_device_share">카메라 공유</string>
+    <string name="lc_device_share_list">공유된 장비</string>
+    <string name="lc_device_share_user_list">공유된 사용자</string>
+    <string name="lc_device_share_confirm">카메라를 공유하시겠습니까?</string>
+    <string name="lc_device_share_fail_me">본인 계정에는 카메라를 공유할 수 없습니다.</string>
+
+    <!-- 로컬스토리지 -->
+    <string name="lc_sdcard_storage">로컬 스토리지 용량 조회중입니다.</string>
+    <string name="lc_sdcard_text">로컬 스토리지</string>
+    <string name="lc_sdcard_format_text">포맷</string>
+    <string name="lc_sdcard_useable">사용가능합니다.</string>
+    <string name="lc_sdcard_formating_text">포맷중...</string>
+    <string name="lc_sdcard_format_finish_text">포맷이 완료되었습니다.</string>
+    <string name="lc_sdcard_not_exists">저장장치가 없습니다.</string>
+    <string name="lc_sdcard_abnormal">SD카드가 손상되었습니다.</string>
+    <string name="lc_sdcard_format_dialog">포맷하시겠습니까? 포맷을 하면 모든 데이터가 지워지며 포맷을 시작하면 취소할 수 없습니다.</string>
+
+    <string name="lc_demo_device_recoding_all">상시 녹화</string>
+    <string name="lc_smart_motion_text">스마트 트랙</string>
+
+    <string name="lc_absound_text">소리감지</string>
+
+    <string name="input_email_hint">이메일을 입력해주세요</string>
+    <string name="input_email_hint2">이메일을 @ 형태로 입력해주세요</string>
+    <string name="btn_auth">인증</string>
+    <string name="btn_auth_confirm">확인</string>
+
+    <string name="phone_not_match_tip">올바른 이메일이 아닙니다.</string>
+
+    <string name="lc_not_exists_account">등록되지 않은 계정</string>
+    <string name="lc_not_exists_account_text">등록되지 않은 계정입니다.공유받는 회원이 위 email[::invite_email::]로 가입을 할경우 자동으로 권한을 얻게 됩니다.</string>
+    <string name="lc_not_exists_account_text2">등록되지 않은 계정입니다.</string>
+
+    <string name="lc_delete_share_release">해제</string>
+    <string name="lc_delete_share">카메라 공유 해제</string>
+    <string name="lc_delete_share_confirm">카메라 공유기능을 해제하시겠습니까?</string>
+
+    <string name="lc_common_process_ok">처리 되었습니다</string>
+
+    <string name="lc_demo_device_version_tip">펌웨어버전</string>
+    <string name="lc_demo_device_move_check">움직임 감지</string>
+    <string name="lc_demo_device_detect_setting">감지 설정</string>
+
+    <string name="network_error">네트워크에 접속할 수 없습니다.</string>
+
+    <!-- 디바이스 추가 & 삭제 -->
+    <string name="device_reg_fail">디바이스를 등록할 수 없습니다.</string>
+    <string name="device_delete_fail">디바이스를 삭제할 수 없습니다.</string>
+</resources>

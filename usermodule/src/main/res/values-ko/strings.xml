@@ -1,0 +1,258 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="input_pw_hint">비밀번호(8~15자 영문/숫자/특수문자)</string>
+    <string name="input_pw_hint2">비밀번호 입력해주세요</string>
+    <string name="input_pw_hint_retry">비밀번호 재입력해주세요</string>
+    <string name="input_email_hint">이메일을 입력해주세요</string>
+    <string name="input_email_hint2">이메일을 @ 형태로 입력해주세요</string>
+    <string name="btn_auth">인증</string>
+    <string name="btn_auth_confirm">확인</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_register">회원가입</string>
+    <string name="btn_passwd_reset">비밀번호 재설정</string>
+    <string name="phone_not_match_tip">올바른 이메일이 아닙니다.</string>
+    <string name="password_not_match_tip">비밀번호를 입력해주세요</string>
+    <string name="network_error">네트워크에 접속할 수 없습니다.</string>
+    <string name="login_error">로그인 할 수 없습니다. ID/PW를 확인해 주세요</string>
+    <string name="login_server_error">서버에 로그인을 할 수 없습니다.</string>
+<!--    <string name="app_name">방탄 CCTV</string>-->
+<!--    <string name="lc_demo_cn">domestic</string>-->
+<!--    <string name="lc_demo_overseas">overseas</string>-->
+<!--    <string name="lc_demo_cn_title_tip">Lechange Domestic Open Platform</string>-->
+<!--    <string name="lc_demo_overseas_title_tip">Lechange Overseas Open Platform</string>-->
+<!--    <string name="lc_demo_choose_env_tip1">Open platform HTTP API gateway address</string>-->
+<!--    <string name="lc_demo_choose_env_tip2">（No need to modify by default）</string>-->
+<!--    <string name="lc_demo_choose_env_ak">App ID</string>-->
+<!--    <string name="lc_demo_choose_env_ak_tip">Please input App ID</string>-->
+<!--    <string name="lc_demo_choose_env_sk">App Secret</string>-->
+<!--    <string name="lc_demo_choose_env_sk_tip">Please input App Secret</string>-->
+<!--    <string name="lc_demo_sure">sure</string>-->
+<!--    <string name="lc_demo_choose_env_tip3">tips：\n Please log in to the Lechange open platform website https://open.lechange.com, register as a Lechange developer account, log in to the website and create an application to get App ID and App Secret</string>-->
+<!--    <string name="lc_demo_choose_env_tip4">tips：\n Please log in to the Lechange open platform website https://open.easy4ip.com, register as a Lechange developer account, log in to the website and create an application to get App ID and App Secret</string>-->
+<!--    <string name="lc_demo_choose_env_tip5">《Compliance legal provisions》</string>-->
+<!--    <string name="lc_demo_main_title">방탄CCTV 홈</string>-->
+<!--    <string name="lc_demo_main_offline">디바이스 오프라인</string>-->
+<!--    <string name="lc_demo_main_offline2">디바이스 오프라인\n디바이스 삭제시, 장비먼저 삭제한다음\n리셋버튼을 10초이상 누른 후 추가 해주세요.</string>-->
+<!--    <string name="lc_demo_main_no_device">등록된 장비가 없습니다.</string>-->
+<!--    <string name="lc_demo_device_version_tip">펌웨어버전</string>-->
+<!--    <string name="lc_demo_device_version_new">최신버전</string>-->
+<!--    <string name="lc_demo_device_version_current">현재버전</string>-->
+<!--    <string name="lc_demo_device_move_check">움직임 감지</string>-->
+<!--    <string name="lc_demo_device_warn_setting">알림 설정</string>-->
+<!--    <string name="lc_demo_device_version_new_tip">현재 최신버전입니다</string>-->
+<!--    <string name="lc_demo_device_deployment_tip">등록후 카메라 실행되면, 화면 변화가 감지되면 동영상이 녹화됩니다</string>-->
+<!--    <string name="lc_demo_device_deployment_setting">알림 설정</string>		-->
+<!--    <string name="lc_demo_device_detect_setting">감지 설정</string>-->
+<!--    <string name="lc_demo_device_delete">삭제</string>-->
+<!--    <string name="lc_demo_device_name_hint">디바이스 이름을 입력해주세요</string>-->
+<!--    <string name="lc_demo_device_update">업그레이드</string>-->
+<!--    <string name="lc_demo_device_begin_update">업그레이드 시작</string>-->
+<!--    <string name="lc_demo_device_updateing">업그레이드 중...</string>-->
+<!--    <string name="lc_demo_device_cancel">취소</string>-->
+<!--    <string name="lc_demo_device_update_tip">tips</string>-->
+<!--    <string name="lc_demo_device_detail_title">디바이스 상세</string>-->
+<!--    <string name="lc_demo_device_deployment_title">알림 설정</string>-->
+<!--    <string name="lc_demo_device_version_title">디바이스 프로그램 버전</string>-->
+<!--    <string name="lc_demo_device_update_msg">업그레이드 프로세스는 몇 분 동안 지속됩니다. 업그레이드할 때 장치의 전원이 꺼져 있는지 확인하십시오</string>-->
+<!--    <string name="lc_demo_device_modify_success">수정되었습니다</string>-->
+<!--    <string name="lc_demo_device_unbind_success">삭제되었습니다</string>-->
+<!--    <string name="lc_demo_device_update_success">업데이트 되었습니다</string>-->
+<!--    <string name="lc_demo_device_cloud_video">클라우드</string>-->
+<!--    <string name="lc_demo_device_local_video">로컬저장소</string>-->
+<!--    <string name="lc_demo_device_more_video">No video today, please wait for more ></string>-->
+<!--    <string name="lc_demo_device_cloud_state_not_opened">Cloud video package is not opened</string>-->
+<!--    <string name="lc_demo_device_cloud_state_expired">Cloud video package has expired</string>-->
+<!--    <string name="lc_demo_device_cloud_state_suspended">Cloud video package suspended</string>-->
+<!--    <string name="lc_demo_device_video_play_error">Playback failed</string>-->
+<!--    <string name="lc_demo_device_video_play_loading">Video security channel is being established. . .</string>-->
+<!--    <string name="lc_demo_device_video_play_change">Switching video security channel. . .</string>-->
+<!--    <string name="lc_demo_device_capture_success">Screenshot successful</string>-->
+<!--    <string name="lc_demo_device_capture_failed">Screenshot failed</string>-->
+<!--    <string name="lc_demo_device_record_begin">Start recording</string>-->
+<!--    <string name="lc_demo_device_record_stop">End screen recording</string>-->
+<!--    <string name="lc_demo_device_talk_open_failed">Intercom failed to open</string>-->
+<!--    <string name="lc_demo_device_talk_open_success">Intercom Begin</string>-->
+<!--    <string name="lc_demo_device_talk_close_success">Intercom Close</string>-->
+<!--    <string name="lc_demo_device_record_loading_more">See more</string>-->
+<!--    <string name="lc_demo_device_record_edit">Edit</string>-->
+<!--    <string name="lc_demo_device_record_edit_finish">Finish</string>-->
+<!--    <string name="lc_demo_device_record_delete_success">successfully deleted</string>-->
+<!--    <string name="lc_demo_device_record_download">Download</string>-->
+<!--    <string name="lc_demo_device_record_download_finish">Download completed</string>-->
+<!--    <string name="lc_demo_device_record_download_error">Download failed, click to try again</string>-->
+<!--    <string name="lc_demo_device_record_download_begin">Start download</string>-->
+<!--    <string name="lc_demo_device_encrypt_key_tip">The video is encrypted, please enter the password</string>-->
+<!--    <string name="lc_demo_device_encrypt_device_password_tip">The video is encrypted, please enter the device password</string>-->
+<!--    <string name="lc_demo_device_sure">확인</string>-->
+<!--    <string name="lc_demo_device_cur_wifi">네트워크 설정</string>-->
+<!--    <string name="lc_demo_device_serial_tip">Serial NO</string>-->
+<!--    <string name="lc_demo_device_type_tip">디바이스 모델</string>-->
+<!--    <string name="lc_demo_device_name">디바이스 이름</string>-->
+<!--    <string name="lc_demo_device_nvr_no_channel">no channel</string>-->
+<!--    <string name="lc_demo_device_delete_choose_all">Choose All</string>-->
+<!--    <string name="lc_demo_device_delete_sure">삭제하시겠습니까？</string>-->
+<!--    <string name="lc_demo_device_delete_exit">종료하시겠습니까？</string>-->
+<!--    <string name="lc_demo_device_delete_exit_tip">The video download is not completed, exit will cancel the download, whether to exit</string>-->
+<!--    <string name="lc_demo_device_today_no_record">금일 녹화목록이 없습니다</string>-->
+<!--    <string name="lc_demo_device_local_sd">No storage medium</string>-->
+<!--    <string name="lc_demo_device_cloud_not_open">Cloud storage is not enabled</string>-->
+<!--    <string name="network_error">네트워크에 접속할 수 없습니다.</string>-->
+
+<!--    &lt;!&ndash; login &ndash;&gt;-->
+<!--    <string name="login_error">로그인 할 수 없습니다. ID/PW를 확인해 주세요</string>-->
+<!--    <string name="login_server_error">서버에 로그인을 할 수 없습니다.</string>-->
+<!--    &lt;!&ndash; 회원가입 &ndash;&gt;-->
+<!--    <string name="register_title">회원가입</string>-->
+<!--    <string name="user_reg_ok">회원가입 되었습니다.</string>-->
+<!--    <string name="user_reg_fail">회원가입을 할 수 없습니다.\n가입정보를 확인해 주세요</string>-->
+<!--    <string name="user_reg_fail_for_serverlogin">회원가입을 할 수 없습니다.\n관리자에게 문의해주세요.</string>-->
+<!--    <string name="user_input_passwd_error">비밀번호를 입력해주세요</string>-->
+<!--    <string name="user_input_passwd_mismatch">비밀번호가 일치하지 않습니다</string>-->
+<!--    <string name="user_input_passwd_invalid">비밀번호형식은 문자/숫자/특수문자 조합입니다</string>-->
+<!--    <string name="user_input_auth_email_error">이메일 인증을 해주세요</string>-->
+<!--    <string name="user_input_name_error">닉네임을 입력해주세요</string>-->
+<!--    <string name="user_input_phonenum_error">핸드폰 번호를 입력해주세요</string>-->
+<!--    <string name="user_reg_exist">이미 가입된 계정입니다</string>-->
+<!--    <string name="user_withdrawal_success">탈퇴처리 되었습니다</string>-->
+<!--    <string name="user_withdrawal_error">탈퇴처리 할수 없습니다.\n관리자에게 문의하세요</string>-->
+<!--    <string name="user_withdrawal_device_error">디바이스 삭제후 탈퇴해주세요</string>-->
+<!--    <string name="register_input_auth_hint">이메일 인증번호를 입력해주세요</string>-->
+<!--    <string name="register_input_nick_hint">닉네임을 입력해주세요</string>-->
+<!--    <string name="register_input_phone_hit">핸드폰번호를 입력해주세요</string>-->
+<!--    &lt;!&ndash; popup &ndash;&gt;-->
+<!--    <string name="popup_title">알림</string>-->
+<!--    <string name="popup_logout_text">로그아웃 하시겠습니까?</string>-->
+<!--    <string name="popup_withdrawal_text">탈퇴 하시겠습니까?</string>-->
+<!--    <string name="popup_confirm">확인</string>-->
+<!--    <string name="popup_cancel">취소</string>-->
+<!--    <string name="popup_delete_text">삭제 하시겠습니까?</string>-->
+<!--    &lt;!&ndash; mypage &ndash;&gt;-->
+<!--    <string name="mypage_title">마이페이지</string>-->
+<!--    <string name="password_change_success">비밀번호가 변경되었습니다.</string>-->
+<!--    <string name="password_change_fail">비밀번호를 변경할 수 없습니다.\n관리자에게 문의해주세요.</string>-->
+<!--    <string name="item_email">이메일 정보</string>-->
+<!--    <string name="item_passwd">비밀번호</string>-->
+<!--    <string name="item_passwd_modify">비밀번호 변경</string>-->
+<!--    <string name="item_mobile">휴대폰 정보</string>-->
+<!--    <string name="item_version">버전 정보</string>-->
+<!--    <string name="item_logout">로그아웃</string>-->
+<!--    <string name="item_withdrawal">회원탈퇴</string>-->
+<!--    <string name="pw_change_prev_password">이전 비밀번호를 입력해주세요</string>-->
+<!--    <string name="pw_change_new_password">변경할 비밀번호를 입력해주세요</string>-->
+<!--    <string name="pw_change_new_password_retry">변경할 비밀번호를 재입력해주세요</string>-->
+<!--    <string name="pw_change_btn">비밀번호 변경</string>-->
+<!--    <string name="tel_change_new_mobile">변경할 휴대폰번호를 입력해주세요</string>-->
+<!--    <string name="tel_change_auth">인증</string>-->
+<!--    <string name="tel_change_auth_desc">인증코드를 입력해주세요</string>-->
+<!--    <string name="tel_change_btn">휴대폰번호 변경</string>-->
+<!--    &lt;!&ndash; common &ndash;&gt;-->
+<!--    <string name="input_pw_hint">비밀번호(8~15자 영문/숫자/특수문자)</string>-->
+<!--    <string name="input_pw_hint2">비밀번호 입력해주세요</string>-->
+<!--    <string name="input_pw_hint_retry">비밀번호 재입력해주세요</string>-->
+<!--    <string name="input_email_hint">이메일을 입력해주세요</string>-->
+<!--    <string name="input_email_hint2">이메일을 @ 형태로 입력해주세요</string>-->
+<!--    <string name="btn_auth">인증</string>-->
+<!--    <string name="btn_auth_confirm">확인</string>-->
+<!--    <string name="btn_login">로그인</string>-->
+<!--    <string name="btn_register">회원가입</string>-->
+<!--    <string name="btn_passwd_reset">비밀번호 재설정</string>-->
+
+<!--    &lt;!&ndash; bottom navigation &ndash;&gt;-->
+<!--    <string name="navi_notice">알림</string>-->
+<!--    <string name="navi_home">홈</string>-->
+<!--    <string name="navi_mypage">마이페이지</string>-->
+<!--    &lt;!&ndash; password reset &ndash;&gt;-->
+<!--    <string name="pwreset_title">비밀번호 재설정</string>-->
+<!--    <string name="pwreset_input_email_hint">가입한 이메일 주소를 입력해주세요</string>-->
+<!--    <string name="pwreset_input_phone_hint">핸드폰 번호를 입력해 주세요</string>-->
+<!--    <string name="pwreset_input_phone_auth_hint">인증번호를 입력해주세요</string>-->
+<!--    <string name="pwreset_info_title">비밀번호 재설정 안내</string>-->
+<!--    <string name="pwreset_info_hint1">입력하신 이메일로 회원님의 비밀번호를 초기화후 알려드립니다</string>-->
+<!--    <string name="pwreset_info_hint2">계정을 찾는데 일정 시간이 소요될 수 있습니다</string>-->
+<!--    &lt;!&ndash; notice &ndash;&gt;-->
+<!--    <string name="notice_title">알림정보</string>-->
+<!--    &lt;!&ndash; 디바이스 추가 & 삭제 &ndash;&gt;-->
+<!--    <string name="device_reg_fail">디바이스를 등록할 수 없습니다.</string>-->
+<!--    <string name="device_delete_fail">디바이스를 삭제할 수 없습니다.</string>-->
+
+<!--    &lt;!&ndash; 로컬스토리지 &ndash;&gt;-->
+<!--    <string name="lc_sdcard_storage">로컬 스토리지 용량 조회중입니다.</string>-->
+<!--    <string name="lc_sdcard_text">로컬 스토리지</string>-->
+<!--    <string name="lc_sdcard_format_text">포맷</string>-->
+<!--    <string name="lc_sdcard_useable">사용가능합니다.</string>-->
+<!--    <string name="lc_sdcard_formating_text">포맷중...</string>-->
+<!--    <string name="lc_sdcard_format_finish_text">포맷이 완료되었습니다.</string>-->
+<!--    <string name="lc_sdcard_not_exists">저장장치가 없습니다.</string>-->
+<!--    <string name="lc_sdcard_abnormal">SD카드가 손상되었습니다.</string>-->
+<!--    <string name="lc_sdcard_format_dialog">포맷하시겠습니까? 포맷을 하면 모든 데이터가 지워지며 포맷을 시작하면 취소할 수 없습니다.</string>-->
+
+<!--    &lt;!&ndash; common &ndash;&gt;-->
+<!--    <string name="lc_common_search">검색</string>-->
+<!--    <string name="lc_common_quit2">뒤로 가기를 한번 더 누르면 앱이 종료됩니다.</string>-->
+
+<!--    &lt;!&ndash; timezone &ndash;&gt;-->
+<!--    <string name="lc_timezone_loading">시간대 조회중...</string>-->
+<!--    <string name="lc_timezone_text">시간대</string>-->
+<!--    <string name="lc_timezone_input_city_hint">도시이름을 입력하세요</string>-->
+<!--    <string name="lc_timezone_setup_finish">설정되었습니다.</string>-->
+
+<!--    &lt;!&ndash; 소리감지 &ndash;&gt;-->
+<!--    <string name="lc_absound_text">소리감지</string>-->
+
+<!--    &lt;!&ndash; 스마트모션 &ndash;&gt;-->
+<!--    <string name="lc_smart_motion_text">스마트 트랙</string>-->
+<!--    <string name="lc_demo_device_recoding_all">상시 녹화</string>-->
+<!--    &lt;!&ndash; 이미지 회전 &ndash;&gt;-->
+<!--    <string name="lc_reverse_image_text">이미지 회전</string>-->
+
+<!--    &lt;!&ndash; close camera &ndash;&gt;-->
+<!--    <string name="lc_close_camera_text">휴식 모드</string>-->
+<!--    <string name="lc_common_version_update">업데이트</string>-->
+<!--    <string name="lc_common_push_notice">푸시알림</string>-->
+<!--    <string name="lc_close_camera_not_play">휴식 모드 기능이 켜져있어 재생을 할 수 없습니다.</string>-->
+<!--    <string name="lc_notice_delete_dialog_title">알림 삭제</string>-->
+<!--    <string name="lc_notice_delete_ok">알림이 삭제되었습니다.</string>-->
+<!--    <string name="lc_notice_delete_dialog_msg">알림을 삭제하시겠습니까?</string>-->
+
+<!--    <string name="lc_device_reset">장비초기화</string>-->
+<!--    <string name="lc_device_reset_text">다시 추가할 수 있도록\n결함이 있는 카메라를 삭제합니다.</string>-->
+<!--    <string name="lc_device_reset_confirm">결함이 있는 카메라를 초기화 하시겠습니까?</string>-->
+<!--    <string name="lc_device_reset_fin">카메라가 초기화 되었습니다.</string>-->
+<!--    <string name="lc_all_device_ok">등록된 모든 카메라가 정상입니다.</string>-->
+
+<!--    <string name="lc_customer_support">고객지원</string>-->
+<!--    <string name="lc_customer_support_text">CCTV 연결방법,\n사용방법 등을 안내합니다.</string>-->
+
+<!--    <string name="lc_device_share">카메라 공유</string>-->
+<!--    <string name="lc_device_share_list">공유된 장비</string>-->
+<!--    <string name="lc_device_share_user_list">공유된 사용자</string>-->
+<!--    <string name="lc_device_share_confirm">카메라를 공유하시겠습니까?</string>-->
+<!--    <string name="lc_device_share_fail_me">본인 계정에는 카메라를 공유할 수 없습니다.</string>-->
+
+<!--    <string name="lc_not_exists_account">등록되지 않은 계정</string>-->
+<!--    <string name="lc_not_exists_account_text">등록되지 않은 계정입니다.공유받는 회원이 위 email[::invite_email::]로 가입을 할경우 자동으로 권한을 얻게 됩니다.</string>-->
+<!--    <string name="lc_not_exists_account_text2">등록되지 않은 계정입니다.</string>-->
+<!--    <string name="lc_common_process_ok">처리 되었습니다</string>-->
+
+<!--    <string name="lc_shared_dt_info">::shared_dt::에 공유하였습니다.</string>-->
+
+<!--    <string name="lc_app_update_release">업데이트</string>-->
+<!--    <string name="lc_app_update">앱 업데이트</string>-->
+<!--    <string name="lc_app_update_confirm">새 버전이 있습니다. 업데이트하시겠습니까?</string>-->
+
+<!--    <string name="lc_delete_share_release">해제</string>-->
+<!--    <string name="lc_delete_share">카메라 공유 해제</string>-->
+<!--    <string name="lc_delete_share_confirm">카메라 공유기능을 해제하시겠습니까?</string>-->
+
+<!--    <string name="lc_blockchain_auth_fail">블록체인 인증 실패</string>-->
+
+<!--    <string name="lc_text_light">Light</string>-->
+<!--    <string name="lc_text_siren">Siren</string>-->
+
+<!--    <string name="lc_ksw_connecting_blockchain_server">블록체인 서버에 연결중입니다...</string>-->
+<!--    <string name="lc_ksw_auth_blockchain_server">블록체인 서버에서 인증 확인중입니다.</string>-->
+<!--    <string name="lc_ksw_authfin_blockchain_server">블록체인 인증완료.</string>-->
+
+</resources>

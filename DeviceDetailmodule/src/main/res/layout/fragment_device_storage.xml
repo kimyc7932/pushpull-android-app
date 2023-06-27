@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BaseContentBack"
+    android:layout_marginTop="@dimen/px_30"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_130"
+        android:background="@color/lc_demo_color_ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30">
+
+
+        <LinearLayout
+            android:id="@+id/ll_storage"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_sw_sdcard">
+            </ImageView>
+            <TextView
+                android:id="@+id/tv_storage_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/lc_sdcard_text"
+                android:textColor="@color/lc_demo_color_2c2c2c"
+                android:textSize="@dimen/px_36"></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_sdcard_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_30"
+            android:layout_toRightOf="@id/ll_storage"
+            android:gravity="end"
+            android:maxLines="2"
+            android:text="@string/lc_sdcard_storage"
+            android:textColor="@color/lc_demo_color_8f8f8f"
+            android:textSize="@dimen/px_30"></TextView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:background="@color/lc_demo_color_d9d9d9"
+        android:paddingLeft="@dimen/px_30"
+        android:paddingRight="@dimen/px_30"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+    <com.mm.android.mobilecommon.widget.LcProgressBar
+        android:id="@+id/pg_format"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_30"
+        android:background="@null"
+        android:max="100"
+        android:layout_gravity="end"
+        android:maxHeight="@dimen/px_120"
+        android:minHeight="@dimen/px_120"
+        android:progress="0"
+        android:progressDrawable="@drawable/lc_demo_pg_background"
+        android:secondaryProgress="0"
+        ></com.mm.android.mobilecommon.widget.LcProgressBar>
+
+</LinearLayout>

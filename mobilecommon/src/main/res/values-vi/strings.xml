@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lc_demo_device_cancel">Hủy</string>
+    <string name="popup_confirm">Xác nhận</string>
+
+    <string name="lc_shared_dt_info">::shared_dt::đã chia sẻ.</string>
+
+</resources>

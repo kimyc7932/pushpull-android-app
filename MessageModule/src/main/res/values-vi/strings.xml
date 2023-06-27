@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lc_motion_message_text">Đã phát hiện chuyển động.</string>
+    <string name="lc_sound_message_text">Đã phát hiện âm thanh bất thường..</string>
+
+</resources>
